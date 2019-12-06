@@ -3,8 +3,8 @@ next
 transBackground(sofa,blur) next()
 narrator "<color=#ccc><i>It was the morning of the Mochi Festival. A week has passed, and I spent most of it at home, dodging my parents questions,{a} so it was relieving to be back in Davis, where I could focus on things that matter...{a} like sleeping. </color></i>" 
 
-"<color=#ccc><i>Speaking of sleep…{a} I also can’t forget the mochi that Kuma mentioned to bring in the syllabus.</color></i>"
-"<color=#ccc><i>Speaking of that...{a} why do we need to bring mochi into class? Are we planning to feast in class?</color></i>"
+"<color=#ccc><i>Speaking of sleep…{a} I also can’t forget the mochi that I'm supplying for the festival.</color></i>"
+"<color=#ccc><i>Speaking of that...{a} I can already imagine the amount of mochi that I can feast on when the festival starts.</color></i>"
 "<color=#ccc><i>My stomach growled at the thought.</color></i>"
 
 
