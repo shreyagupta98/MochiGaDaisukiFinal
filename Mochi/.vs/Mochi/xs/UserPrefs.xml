@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{BA9F8E84-316D-4A45-7547-603AD0C89628}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Story/story_chap1Bicycle.txt">
+    <Files>
+      <File FileName="Assets/Resources/Story/story_chap0a.txt" Line="18" Column="15" />
+      <File FileName="Assets/Resources/Story/story_chap1Bicycle.txt" Line="35" Column="1" />
+      <File FileName="Assets/Resources/Story/story_chap1ChoiceA.txt" Line="12" Column="16" />
+      <File FileName="Assets/Resources/Story/story_chap1ChoiceB.txt" Line="22" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mochi" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Story" expanded="True">
+                  <Node name="story_chap1Bicycle.txt" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Core" expanded="True">
+                  <Node name="InputAndChoiceSystem" expanded="True" />
+                  <Node name="Novel Controller" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fbc9c2e3-92ff-4bd2-9dfe-2bef8638c75c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

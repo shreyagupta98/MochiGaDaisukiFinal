@@ -1,0 +1,38 @@
+playMusic(Kaine) enter(Raelin) faceRight(Raelin) setFace(Raelin,shockedF) setBody(Raelin,casualForward) setPosition(Raelin,0.2) transBackground(town,radialClock) next()
+Raelin "So apparently the world is going to explode."
+
+enter(Gwynne) setPosition(Gwynne,0.8) setBody(Gwynne,casualA) setFace(Gwynne,scaredA) next()
+Gwynne "Oh my god! {a}That's terrible!"
+
+setBody(Gwynne,casualF) setFace(Gwynne,normF) move(Gwynne,0.7) next
+"But, how is that even possible?{a} I don't understand."
+
+setBody(Raelin,specialAngle) setFace(Raelin,puzzledA) move(Raelin,0.1) next
+Raelin "I don't really understand it, myself..."
+"But apparently the only way to stop it is to tickle an ugly monkey's face."
+
+Flip(Gwynne) move(Gwynne,0.75) next
+Gwynne "...{a} You're pulling my leg right now, aren't you?"
+Raelin "It sounds ridiculous, but Gareth said its true."
+
+setBody(Gwynne,specialF) faceRight(Gwynne) move(Gwynne,0.8) next
+Gwynne "The wizard? {wa 1}When did you go visit him?"
+
+move(Raelin,0.2) next
+Raelin "I didn't. He came to me. {a}And I'd never seen him more serious."
+Gwynne "Honestly?{a} Tickle a monkey's face?"
+
+setFace(Raelin,seriousA) move(Raelin,0.15) next
+Raelin "It has to be ugly, though. He was very clear on that."
+
+faceLeft(Gwynne) setBody(Gwynne,casualF) move(Gwynne,0.75) next
+Gwynne "Okay... {wa 1}So where do we find an ugly monkey?"
+
+move(Raelin,0.1) setFace(Raelin,puzzledA) next
+Raelin "I can't be sure, but I've got a hunch that we'll have luck in this place on the map called the Forest of Ugly Monkeys."
+Gwynne "I can't believe we're actually doing this."
+Raelin "Come on...{a} Let's hurry and get this over with."
+showScene(false,hurricane)
+
+playMusic(null) next
+Load(story_chap1a)

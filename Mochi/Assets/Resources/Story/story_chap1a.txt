@@ -1,0 +1,38 @@
+next
+playMusic(SongOfTheAncients) next
+showScene(true,topDown) transBackground(forest,feathers) next
+enter(Raelin) faceRight(Raelin) enter(Gwynne) setPosition(Raelin,0.2) setPosition(Gwynne,0.7) next
+Gwynne "I'm amazed i've never heard of this place before..."
+Raelin "Yeah, it's strange..."
+Gwynne "I mean, {wa 1}a forest of ugly monkeys... What a name."
+
+setFace(Raelin,happyA) faceRight(Gwynne) move(Raelin,0.15) move(Gwynne,0.45) next
+Raelin "Hey look! Someone's up there!"
+Gwynne "Great, maybe they can show us where we can find a monkey."
+Raelin "Excuse me, miss!{a} Do you-{wa 0.5} er...{wa 0.5}?"
+
+enter(Maeko) setPosition(Maeko,1) move(Maeko,0.8) move(Raelin,0) move(Gwynne,0.3) faceRight(Gwynne) setBody(Raelin,specialAngle) setFace(Raelin,shockedA) setFace(Gwynne,shockedA) setBody(Gwynne,casualA) next
+Maeko "Oh! Visitors!{a} Hello, strangers!"
+
+Raelin "He-{wa 0.5}hello?"
+Gwynne "Are you a kitsune?"
+
+setFace(Raelin,puzzledA) next
+Maeko "You betcha!{a} What are a couple of humans like you doing all the way out here?{c} I've never seen your kind come this far out."
+
+move(Gwynne,0.35) next
+Gwynne "We're looking for an ugly monkey."
+
+move(Raelin,-0.1) next
+Raelin "We have to tickle its face."
+
+setFace(Maeko,upset) move(Maeko,0.85) next
+Maeko "That's an odd objective..."
+move(Raelin,0) next
+Raelin "Tell me about it..."
+
+setFace(Maeko,happy) next
+Maeko "Well if its a hideous primate your after, you've come to the right place. Come on, let me show you where they are."
+showScene(false,spotlight) next
+""
+Load(story_chap2a)

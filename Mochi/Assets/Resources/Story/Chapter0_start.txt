@@ -1,0 +1,13 @@
+*Avira "We have to tickle the monkey's face or the world will explode!"
+*Terrance "What? Tickle it's face?"
+*Avira "Yes! But I can't do it! You have to!"
+*Terrance "Why me?"
+*Avira "Honestly.{a} That thing is too gross for me to touch!"
+
+choice "Tickle the monkey's face?"
+{
+  "Of course!"
+    Load(story_a1)
+  "No, that's stupid."
+    Load(story_b1)
+}

@@ -1,0 +1,12 @@
+next 
+
+narrator "|| It was over in a flash.{a} Kuma never stood a chance. ||"
+"|| As I shouted and celebrated my not-so-hard fought victory, I noticed Kuma staring down at the floor with a sad expression on his face with a loose grip on the controls in his hands. ||"
+"|| But I won!{a} Which is good, right?{a} It’s a dog-eat-dog world out there, and he should have realized that before he got in the ring with me. ||"
+
+transBackground(GameOver, blur) next
+"|| But this victory doesn’t feel like the rest of them... ||"
+
+exit(Kuma) next
+narrator "GAME OVER"
+Load(story_chap0b) transBackground(arcadeScreenshot,radialClock) enter(Kuma) next

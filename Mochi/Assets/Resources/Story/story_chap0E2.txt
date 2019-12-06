@@ -1,0 +1,7 @@
+next
+
+Kuma "Well to be honest{a} [transBackground(GameOver, blur)], I really hope you don’t take my class."
+
+exit(Kuma) next
+narrator "GAME OVER"
+Load(story_chap0a)

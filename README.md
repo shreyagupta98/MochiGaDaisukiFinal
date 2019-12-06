@@ -1,2 +1,2 @@
-# MochiGaDaisukiFinal
-189L Final Project
+# Mochi-ga-daisuki-189L
+ECS189L visual novel genre game

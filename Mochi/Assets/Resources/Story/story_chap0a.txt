@@ -1,0 +1,49 @@
+next
+playMusic(Chuzausen_-_06_-_Raro_Bueno) transBackground(arcadeScreenshot,radialClock) next()
+narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
+Load(story_chap1Bicycle)
+"<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
+"<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of procrastination. </i></color>"
+"<color=#ccc><i>My escape from school: old-school arcade games.</i></color>"
+"<color=#ccc><i>It’s pretty packed in the arcade this time of year, which is surprising and unsurprising depending on how you look at it. </i></color>"
+"<color=#ccc><i>Finally!{a} Street Fighter is completely vacant!</i></color>"
+"<color=#ccc><i>I’ve been secretly practicing my Blanka combos in class on an emulator on my laptop, but I just can’t seem to get passed M. Bison. </i></color>"s
+
+playSound(whoosh1) next
+transBackground(black,hypno) next
+narrator "Ouch!"
+"<color=#ccc><i>I accidently bumped into someone as I was walking to the machine.</i></color>"
+
+transBackground(arcadeScreenshot,topDown) next
+enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
+
+setFace(Kuma,concerned) next
+Kuma "Are you ok?!?!"
+narrator "Yeah I think I’ll live, thanks."
+"<color=#ccc><i>As I'm recovering...{a} I start to recognize the bear.</i></color>"
+"Have we met before?"
+setFace(Kuma,surprised) next
+Kuma "Not that I’m aware of, but I do tend to meet a lot of students in my line of work."
+narrator "Your line of work?"
+setFace(Kuma,happy) next
+Kuma "Yep, I’m an Assistant Professor of Computer Science here. The name’s Kuma, Professor Kuma."
+
+narrator "<color=#ccc><i>I knew it, I thought I recognized his face!{a} Prof. Kuma is relatively new here at Davis. </i></color>{c} <color=#ccc><i>He specializes in game technology and artificial intelligence. I remember how excited we all were when we heard about his arrival. </i></color>{c} <color=#ccc><i>I always wanted to take his AI class, but by the time my pass time came around, it was already filled. </i></color>"
+
+Kuma "Pleasure to meet you…"
+narrator "Ushi. It’s nice to meet you Professor Kuma. I’m actually a CS student here myself."
+setFace(Kuma,laugh) next
+Kuma "Well would you look at that.{a} What are the chances?"
+setFace(Kuma,worried) next
+narrator "Kuma then paused for a second, staring at me with a stern and judgemental face, like a somewhat disappointed parent."
+Kuma "Hmmm....{a} Tell me something, Ushi.{c} If it’s finals week...{a} why are you here at an arcade instead of studying?"
+narrator "How should I respond?{c}A. Because it’s so much fun jeez what are you my mom?{a} <br>B. I’ve been studying hard all day, I honestly just needed a break.{a} <br>C. It’s ok, my project partner is carrying me through my final project!"
+choice "How should I respond"
+{
+  "A"
+    Load(story_chap0E1)
+  "B"
+    Load(story_chap0b)
+  "C"
+    Load(story_chap0E2)
+}
