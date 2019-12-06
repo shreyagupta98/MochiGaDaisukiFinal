@@ -13,7 +13,7 @@ Muma "I'm getting old. Don't make fun of your elders!"
 
 narrator "|| Wait a second.{a} I thought this guy didn't have a phone. ||"
 "'Wait! Is that a phon--'"
-"|| Before, I could finish my sentence. A fist clocks me right across my chin. ||"
+"|| Before I could finish my sentence, a fist clocks me right across my chin. ||"
 "|| Damn it...{a} I knew I should not have trusted this guy.... ||"
 
 Muma "Woahh, that was close! I should take his phone before he wakes up."
@@ -25,6 +25,6 @@ Narrator "'Ow.....'"
 "|| I was still reeling from the blow I took from the thief. ||"
 "|| How could I be so dumb. There was no way a sane man would go into this path without a phone! ||"
 "|| Hmm...{a} It seems he only stole my phone. My bike and mochi is still safe. I only knocked out for 5 minutes. ||"
-"|| I still got a chance to make it to the mochi festifal...{a} First, I’ve got to head back. ||"
+"|| I still got a chance to make it to the mochi festival...{a} First, I’ve got to head back. ||"
 
 Load(story_chap2a)
