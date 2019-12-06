@@ -1,36 +1,33 @@
 next
 playSound(PlayingArcadeVSProf) next
-narrator "|| It was over in a flash.{a} I never stood a chance.{a} Well, I did but I couldn’t let him know. ||"
+narrator "<color=#ccc><i>It was over in a flash.{a} I never stood a chance.{a} Well, I did but I couldn’t let him know.</i></color>"
 setFace(Kuma,laugh) next
-"|| When he got his second “Perfect”, he fist-pumped the air around him and as he celebrated, I could see how proud he was. ||"
-"|| It actually kind of hurt a little. I normally don’t like to lose, especially hypothetically. But seeing how happy it made him, I think I can live with it. ||"
+"<color=#ccc><i>When he got his second “Perfect”, he fist-pumped the air around him and as he celebrated, I could see how proud he was.</i></color>"
+"<color=#ccc><i>It actually kind of hurt a little. I normally don’t like to lose, especially hypothetically. But seeing how happy it made him, I think I can live with it.</i></color>"
 
 setFace(Kuma,happy) next
 Kuma "An excellent game!{a} Want to play again?"
-narrator "'No I think I’m good Professor, thanks.'{c} 'I think I should head over to Shields.{a} I’ve got an all-nighter to pull for my final tomorrow.'"
+narrator "'No, I think I’m good Professor, thanks.'{c} 'I think I should head over to Shields.{a} I’ve got an all-nighter to pull for my final tomorrow.'"
 
 setFace(Kuma,sad) next
 Kuma "Of course.{a} Sorry, I can get a little too competitive sometimes.
 setFace(Kuma,giddy) next
 "My friends tell me I should be ranked."
 
-narrator "|| You think you can actually beat me{a} if I was actually trying?{a} Also,{a} Professors have friends? ||{c} || I did my best not to overreact after his casual statement. ||"
+narrator "<color=#ccc><i>You think you can actually beat me{a} if I was actually trying?{a} Also,{a} Professors have friends?{c}I did my best not to overreact after his casual statement.</i></color>"
 
 setFace(Kuma,happy) next
 Kuma "But listen{a} I had a lot of fun playing with it,{a} even though it was a little one-sided.{a} I definitely have a lot to teach you."
-"Speaking of which, why don’t you take my class in the spring?{a} It’s ECS 189L, Gameplay Programming."
-"I’ll be putting out a CRN later next quarter.{a} You should definitely consider it,{a} I think you have potential."
-setFace(Kuma,concerned) next
-"Not as a professional gamer{a} definitely not,{a} but as a programmer yes of course!"
+"Just curious, I was wondering whether or not you might be curious in attending a Mochi Festival next week after finals?{a} We plan on having a small little competition for SF during the festival as well."
+"You should definitely consider it,{a} Who knows?{a} You might somehow win the tournmanent!"
 
-narrator "|| I’m pretty sure there was a compliment buried somewhere in there. ||"
-"'Yeah that sounds like a great idea, thanks. I guess I’ll see you in the spring,{a} if I manage to get in.'"
+narrator "<color=#ccc><i>I did toss today's game so as not to hurt his feeling. A small tournament would be a great chance to regain my pride as a SF competitor.</i></color>"
+"'Yeah that sounds like a great idea, thanks. I guess I’ll see you next week!'"
 
 Kuma "Indeed, it’s been a pleasure Ushi!{a} Good luck with your finals!"
 
 exit(Kuma) next
 
-narrator "|| As I left the arcade, I took one final glance over my shoulders, and saw Professor Kuma waving at me with a big smile and closed eyes in a Brock-like fashion.{a} I waved back and headed to the library, dreading the night I was about to have. ||"
-"|| But at least I could go into it knowing I had someone new who had my back. ||"
+narrator "<color=#ccc><i>As I left the arcade, I took one final glance over my shoulders, and saw Professor Kuma waving at me with a big smile and closed eyes in a Brock-like fashion.{a} I waved back and headed to the library, dreading the night I was about to have.{a} But at least there was something to look forward to after finals.</i></color>"
 
 Load(story_chap1Bicycle)
