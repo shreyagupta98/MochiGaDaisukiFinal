@@ -2,7 +2,7 @@ next
 
 narrator "<color=#ccc><i>As I raced down the road, I noticed someone in front of me off the side of the road scurrying around in a panicked manner.</i></color>"
 narrator "<color=#ccc><i>Whoever it is looks really stressed out. Maybe I should go over and see if I can help?</i></color>"
-narrator "What should I do?{c}A. Go and help the stranger{a} <br>B. Keep going, we ain't got time for that!{a}"
+narrator "What should I do?{c}A. Go and help the stranger{a} <br>B. Keep going, we ain't got time for that!"
 choice "What should I do?"
 {
   "A"
