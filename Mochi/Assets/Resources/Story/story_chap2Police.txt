@@ -1,0 +1,22 @@
+next 
+
+narrator "<color=#ccc><i>I do not have time to help the stranger.{c}I speed my way around the stranger and continue to go down the bike path.</i></color>"
+
+"<color=#ccc><i>The current time is 9:38AM.{a} Time is not my friend here.{c} I'm ridiing the fastest I can while making sure the mochi at the back of the bike does not fall off. If I continue at this rate, I should barely make it on-</i></color>" 
+
+"*SIRENS BLARES*" 
+
+enter(Puma) next
+
+Puma "Stop your bike this instant!"
+
+narrator "<color=#ccc><i>Wait why me? What did I do wrong here? I barely have enough time as it is...</i></color>" 
+"Should I try to outrun them or stop?{c}A. Stop and comply to the police.{a} <br>B. YOLO. My winnings in mochi is more important! 
+
+choice "What do I do?"
+{
+  "A"
+    Load(story_chap2PoliceGO1) 
+  "B" 
+    Load(story_chap2PoliceGO2)
+}
