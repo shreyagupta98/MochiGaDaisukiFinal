@@ -24,6 +24,6 @@ narrator "<color=#ccc><i>I see the stranger I was helping on his bike, biking aw
 "****!"
 "<color=#ccc><i>It's far too dangerous to go down this road now. I will double back and see if the road has cleared up.</color></i>"
 
-Load(story_chap2a)
+Load(story_chap2PathChoice)
 
 

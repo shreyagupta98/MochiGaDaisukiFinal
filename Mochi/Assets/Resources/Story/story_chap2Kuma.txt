@@ -1,0 +1,49 @@
+next
+
+narrator "<color=#ccc><i>I approached the stranger to see if they needed any help. Their back was turned to me so I couldn't make out a face.</i></color>"
+narrator "<color=#ccc><i>They were quickly walking around a motorbike, with their head scanning the nearby area.</i></color>"
+enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
+
+narrator "Hi excuse me, do you need any help? I saw you frantically pacing around so I-"
+
+narrator "<color=#ccc><i>Before I could finish, the stranger turned to face me.</i></color>"
+
+setFace(Kuma,concerned) next
+
+Kuma "Well would you look at that, if it isn't Ushi! Very nice..."
+narrator "Oh wow, hi Kuma. I saw that you looked a little panicky. What happened?"
+Kuma "Well, it's a long story..."
+narrator "<color=#ccc><i>How long are we talking here? Pretty sure he should be in a rush like me.</i></color>"
+narrator "Um no worries sir, you can tel-"
+Kuma "Well I needed to stop here and use the restroom, so I did. And when I got back I reached around in my pockets, but couldn't find the keys."
+Kuma "So I've been looking for them for about 10 minutes now, and my mental health is taking quite the heavy toll."
+
+narrator "<color=#ccc><i>Pretty short story tbh.</i></color>"
+
+narrator "Is there anything I can help with?"
+Kuma "Well if you come across a set of keys, let me know."
+narrator "Ok will do. And you're sure they're not the keys that are in the motorbike right?"
+
+Kuma ".......{c}.....{c}...."
+setFace(Kuma,happy) next
+Kuma "Congratulations, Ushi!"
+narrator "What?"
+Kuma "You passed!!"
+narrator "Passed what?"
+Kuma "My test of course, it was a test all along you see."
+
+narrator "<color=#ccc><i>Yeah, that definitely wasn’t a test...</i></color>"
+narrator "<color=#ccc><i>Kuma ran over to start his bike.</i></color>"
+
+Kuma "Well hop along then!"
+narrator "Wait wait wait, what?"
+
+setFace(Kuma,angry) next
+Kuma "THE FESTIVAL STARTS IN A FEW MINUTES WE NEED TO GO! DITCH THAT BIKE AND HOP ON!"
+narrator "<color=#ccc><i>I couldn't tell if he was actually angry at me or his little "test".</i></color>"
+narrator "Ummmm yes sir right away!"
+narrator "<color=#ccc><i>I throw my bike into the side of the street and clibmed on.".</i></color>"
+narrator "<color=#ccc><i>And by throw I mean park it nearby and secure it properly.</i></color>"
+narrator "<color=#ccc><i>I hopped on the bike, with one hand wrapped around Kuma and the other holding my precious mochi, as we road off towards the festival.</i></color>"
+
+Load(story_chap3)

@@ -1,0 +1,19 @@
+next
+
+playMusic(GasGasGas) next
+
+narrator "<color=#ccc><i>I did not care who it was.{a} My mind was set on one goal.{a} A year's worth of mochi is too much to give up.{a} Screw the pol-</i></color>"
+
+playMusic(null) playSound(Slap) next
+
+"<color=#ccc><i>It all happened within a flash. Someone drove up to me on a car and smacked me.</i></color>"
+
+playSound(Slap) next
+
+"<color=#ccc><i>All I could see before I fell from my bikes were my mochi...{a} falling off from my bike.</i></color>" 
+
+transBackground(GameOver,blur) next
+
+"GAME OVER"
+
+Load(story_chap0a)
