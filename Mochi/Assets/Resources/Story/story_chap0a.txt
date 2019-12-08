@@ -1,5 +1,6 @@
 next
 playMusic(KerningCity) transBackground(arcadeScreenshot,radialClock) next()
+Load(story_chap2Police)
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
 "<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
 "<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of procrastination. </i></color>"
