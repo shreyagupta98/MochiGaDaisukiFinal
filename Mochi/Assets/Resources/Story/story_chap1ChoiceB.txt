@@ -9,7 +9,8 @@ Muma "Hey, no one’s perfect, everybody has their bad days."
 narrator "I totally get that,{a} but cell phones have become so common, that it would be strange for anyone to just absent-mindedly forget it."
 
 Muma "I'm getting old. Don't make fun of your elders!"
-"*Muma phone rings*"
+
+playSound(PhoneRingTone) next
 
 narrator "<color=#ccc><i>Wait a second.{a} I thought this guy didn't have a phone.</color></i>"
 "'Wait! Is that a phon--'"

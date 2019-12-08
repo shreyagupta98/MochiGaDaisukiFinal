@@ -1,7 +1,8 @@
 next
-playMusic(Chuzausen_-_06_-_Raro_Bueno) transBackground(arcadeScreenshot,radialClock) next()
+playMusic(KerningCity) transBackground(arcadeScreenshot,radialClock) next()
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
-Load(story_chap1Bicycle)
+
+Load(story_chap2Left)
 "<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
 "<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of procrastination. </i></color>"
 "<color=#ccc><i>My escape from school: old-school arcade games.</i></color>"

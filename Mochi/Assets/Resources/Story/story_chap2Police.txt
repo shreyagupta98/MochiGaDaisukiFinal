@@ -6,7 +6,7 @@ narrator "<color=#ccc><i>I do not have time to help the stranger.</i></color>"
 "<color=#ccc><i>The current time is 9:38AM.{a} Time is not my friend here.</i></color>" 
 "<color=#ccc><i>I'm riding the fastest I can while making sure the mochi at the back of the bike does not fall off. If I continue at this rate, I should barely make it on-</i></color>" 
 
-"*SIRENS BLARES*" 
+playSound(PoliceSiren) next
 
 enter(Puma) next
 
