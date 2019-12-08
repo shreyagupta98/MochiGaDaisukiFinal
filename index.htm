@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://h4sis.calblueprint.org/ -->
+
+<html class="gr__h4sis_calblueprint_org"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>JEVCS - Mochi Ga Daisuki Press Kit</title>
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <link href="./files1/css" rel="stylesheet">
+    <link href="./files1/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./files/logo.png">
+    <script>
+      function switchTab(num, type) {
+        const [buttons] = document.getElementsByClassName("tab-buttons--" + type);
+        const [tabContents] = document.getElementsByClassName("tab-content--" + type);
+
+        for (let i = 0; i < buttons.children.length; i++) {
+          if (i === num) {
+            buttons.children[i].className = "tab-button tab-button--active";
+            tabContents.children[i].className = "tab-content tab-content--active";
+          } else {
+            buttons.children[i].className = "tab-button";
+            tabContents.children[i].className = "tab-content";
+          }
+        }
+      }
+
+      function checkSticky() {
+        const [navbar] = document.getElementsByTagName("nav");
+
+        if (window.pageYOffset > 0) {
+          navbar.classList.add("nav--fixed")
+        } else {
+          navbar.classList.remove("nav--fixed");
+        }
+      }
+
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = checkSticky;
+    </script>
+  </head>
+  <body data-gr-c-s-loaded="true" style="zoom: 1;">
+    <nav>
+      <div class="nav-content">
+        <a class="logo">
+          <img src="./files/logo.png">
+        </a>
+        <div class="links">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#trailer">Trailer</a>
+          <a class="nav-link" href="#characters">Characters</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <a name="#"></a>
+      <div class="landing-wrapper">
+        <div class="landing">
+          <div class="caption">
+            <p>JEVCS Presents:</p>
+          </div>
+          <h1 class="landing-title">Mochi Ga Daisuki</h1>
+        </div>
+      </div>
+
+      <img width=100% src="./files/arcade.png" draggable="false">
+
+      <a name="about"></a>
+      <div class="text-section">
+        <div class="text-section__main">
+          <h2 class="headline">
+            Visual novel for all the Davis mochi lovers!!
+          </h2>
+        </div>
+      </div>
+
+      <div class="image-text-section">
+        <div class="image-text-section__visual">
+          <!--- IMAGE HERE -->
+          <img src="./files/kuma.png" draggable="false">
+        </div>
+        <div class="image-text-section__content">
+          <h3 class="title">About</h3>
+          <p class="paragraph">
+             [About the game]
+          </p>
+        </div>
+      </div>
+
+      <a name="features"></a>
+      <div class="image-text-section right">
+        <div class="image-text-section__content">
+          <h3 class="title">Features</h3>
+          <p class="paragraph">
+              [Key features]
+          </p>
+        </div>
+        <div class="image-text-section__visual">
+          <!--- IMAGE HERE -->
+          <img src="./files/kuma2.png" draggable="false">
+        </div>
+      </div>
+
+      <a name="trailer"></a>
+      <div class="image-text-section">
+        <div class="image-text-section__content">
+          <h2 class="headline"><center>TRAILER</center></h2>
+          <p class="paragraph">
+            [INSERT TRAILER LINK]
+          </p>
+        </div>
+      </div>
+
+
+      <a name="characters"></a>
+      <div class="text-section">
+        <h2 class="headline">
+          Meet the characters
+        </h2>
+      </div>
+
+      <div class="speakers-section">
+        <div class="tab-buttons--side">
+          <div class="tab-button tab-button--active" onclick="switchTab(0, &#39;side&#39;)">
+            <h4 class="tab-button__title">Ushi</h4>
+          </div>
+          <div class="tab-button" onclick="switchTab(1, &#39;side&#39;)">
+            <h4 class="tab-button__title">Kuma</h4>
+          </div>
+          <div class="tab-button" onclick="switchTab(2, &#39;side&#39;)">
+            <h4 class="tab-button__title">Muma</h4>
+          </div>
+          <div class="tab-button" onclick="switchTab(3, &#39;side&#39;)">
+            <h4 class="tab-button__title">Puma</h4>
+          </div>
+        </div>
+
+        <div class="tab-content--side">
+          <div class="tab-content tab-content--active">
+            <h5 class="panel__title">Ushi</h5>
+            <p class="panel__subheading">About</p>
+            <p style="margin: 5px 0 30px 0;">
+              [Ushi info]
+          </div>
+          <div class="tab-content">
+            <h5 class="panel__title">Kuma</h5>
+            <img src="./files/kuma2.png" width=40% draggable="false">
+            <p class="panel__subheading">About</p>
+            <p style="margin: 5px 0 30px 0;">
+              [Kuma info]
+            </p>
+          </div>
+          <div class="tab-content">
+            <h5 class="panel__title">Muma</h5>
+            <img src="./files/muma.png" width=40% draggable="false">
+            <p class="panel__subheading">About</p>
+            <p style="margin: 5px 0 30px 0;">
+              [Muma info]
+            </p>
+          </div>
+          <div class="tab-content">
+            <h5 class="panel__title">Puma</h5>
+            <img src="./files/puma.png" width=40% draggable="false">
+            <p class="panel__subheading">About</p>
+            <p style="margin: 5px 0 30px 0;">
+              [Puma info]
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+</body></html>
