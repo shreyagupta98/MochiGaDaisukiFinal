@@ -8,17 +8,21 @@ narrator "Alright."
 "<color=#ccc><i>While there isn't that many bikers in this route, there is a chance that someone could come this way. I mean...{a} look at us! There are two bikers brave enough to brace the danger of this path.</color></i>"
 "<color=#ccc><i>However when I turned back, the worse thing that could happen happened....</color></i>"
 
-playSound(whoosh1) next
+playSound(Slap) next
 exit(Muma) next
 transBackground(black,hypno) next
 
 Muma "See ya sucker!"
 
-transBackground(dangerclose,blur) next()
+transBackground(dangerclose,blur) playMusic(null) next()
 enter(Muma) setBody(Muma,Muma_1) setFace(Muma,Muma_7) next
+
 narrator "<color=#ccc><i>I see the stranger I was helping on his bike, biking away with my phone.</color></i>"
 "Son of a***,{a} HEYYYY!!!{a} THIEF!!!{a}  ********* {a} COME BACK HERE!!!!!!'" 
 "<color=#ccc><i>It was too late.{a} He was already out of sight.</color></i>" 
+
+exit(Muma) next
+
 "****!" 
 "<color=#ccc><i>I'm already press for time... and this-</color></i>"
 "****!"

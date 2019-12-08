@@ -4,21 +4,21 @@ narrator "<color=#ccc><i>I decided to stop and uphold the law. Who knows. Maybe 
 
 Puma "Sir, do you know why we are pulling you over?" 
 
-narrator "'No. Not really.'" 
+narrator "No. Not really." 
 
 Puma "Sir. Do you know how fast you were going on your bike?" 
 
-narrator "'Nope'"
+narrator "Nope"
 
 Puma "You were going at a rate of 25mph. I'm sorry.{a} But I have to take you to the station to fully write you up."
 
-narrator "'What no!{a} I have mochi festival I have to go to.{a} I'm attending a tournament to try to win a YEARS worth of MOCHI.'"
+narrator "What no!{a} I have mochi festival I have to go to.{a} I'm attending a tournament to try to win a YEARS worth of MOCHI."
 
 Puma "I'm sorry.{a} But you cannot use your tournament as an excuse.{a} Please comply or face the conseque-" 
 
 exit(Puma) next
 
-narrator "<color=#ccc><i>I attempt to run before he was ready.{a} However, it was inevitable.{a} Within seconds, he caught up to me and grabbed me. I fell, and he easily restrained me on the ground.{c}I guess my mochi days are....{a} over.</i></color>"
+narrator "<color=#ccc><i>I attempt to run before he was ready.{a} However, it was inevitable.[enter(Puma)]{a} Within seconds, he caught up to me and grabbed me.[transBackground(black,hypno)] I fell, and he easily restrained me on the ground.{c}I guess my mochi days are....{a} over.</i></color>"
 
 transBackground(GameOver,blur) next
 

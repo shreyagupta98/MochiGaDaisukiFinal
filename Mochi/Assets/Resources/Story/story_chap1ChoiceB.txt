@@ -10,17 +10,23 @@ narrator "I totally get that,{a} but cell phones have become so common, that it 
 
 Muma "I'm getting old. Don't make fun of your elders!"
 
-playSound(PhoneRingTone) next
+playMusic(null) playSound(PhoneRingTone) next
 
 narrator "<color=#ccc><i>Wait a second.{a} I thought this guy didn't have a phone.</color></i>"
 "'Wait! Is that a phon--'"
+
+playSound(Slap) exit(Muma) transBackground(black,hypno) next
+
 "<color=#ccc><i>Before I could finish my sentence, a fist clocks me right across my chin.</color></i>"
 "<color=#ccc>Damn it...{a} I knew I should not have trusted this guy....</color></i>"
+
+enter(Muma) next
 
 Muma "Woahh, that was close! I should take his phone before he wakes up."
 "Hahahahaha!{a} Another phone{a} for my collection!" 
 
 exit(Muma) next
+transBackground(dangerclose,blur) next
 
 narrator "'Ow.....'"
 "<color=#ccc><i>I was still reeling from the blow I took from the thief.</color></i>"

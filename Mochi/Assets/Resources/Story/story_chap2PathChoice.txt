@@ -1,6 +1,6 @@
 next
 
-transBackground(mainroadopen,blur) next()
+transBackground(mainroadopen,blur) playMusic(BicycleTheme) next()
 
 narrator "<color=#ccc><i>My watch currently reads 9:28AM.{a} I barely have any time to think.</i></color>"
 "<color=#ccc><i>The left path is finally open, but considering the time I will probably be late, unless I speed on my bike like a madman.</i></color>"
