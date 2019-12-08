@@ -1,8 +1,10 @@
 next
 
-transBackground(road,blur) next()
+transBackground(mainroadopen,blur) next()
 
-narrator "<color=#ccc><i>My watch currently reads 9:28AM.{a} I barely have any time to think.{c}The left path is finally open, but considering the time I will probably be late, unless I speed on my bike like a madman.{c}The right path is still an option, but without my phone and GPS to guide me, there is almost no way I can make it down that path unscathed.</i></color>" 
+narrator "<color=#ccc><i>My watch currently reads 9:28AM.{a} I barely have any time to think.</i></color>"
+"<color=#ccc><i>The left path is finally open, but considering the time I will probably be late, unless I speed on my bike like a madman.</i></color>"
+"<color=#ccc><i>The right path is still an option, but without my phone and GPS to guide me, there is almost no way I can make it down that path unscathed.</i></color>" 
 
 "Which path should I go down?{c}A. Left{a} <br>B. Right"
 

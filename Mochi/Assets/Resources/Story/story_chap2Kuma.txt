@@ -24,6 +24,7 @@ narrator "Is there anything I can help with?"
 Kuma "Well if you come across a set of keys, let me know."
 narrator "Ok will do. And you're sure they're not the keys that are in the motorbike right?"
 
+Kuma ".......{c}.....{c}...."
 setFace(Kuma,happy) next
 Kuma "Congratulations, Ushi!"
 narrator "What?"

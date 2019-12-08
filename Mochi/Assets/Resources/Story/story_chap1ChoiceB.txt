@@ -21,7 +21,7 @@ Muma "Woahh, that was close! I should take his phone before he wakes up."
 
 exit(Muma) next
 
-Narrator "'Ow.....'"
+narrator "'Ow.....'"
 "<color=#ccc><i>I was still reeling from the blow I took from the thief.</color></i>"
 "<color=#ccc><i>How could I be so dumb. There was no way a sane man would go into this path without a phone!</color></i>"
 "<color=#ccc><i>Hmm...{a} It seems he only stole my phone. My bike and mochi is still safe. I only knocked out for 5 minutes.</color></i>"
