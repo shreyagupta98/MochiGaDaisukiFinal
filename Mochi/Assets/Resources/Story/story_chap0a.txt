@@ -1,4 +1,4 @@
-next
+﻿next
 playMusic(KerningCity) transBackground(arcadeScreenshot,radialClock) next()
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
 "<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
@@ -11,7 +11,9 @@ narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this w
 playSound(whoosh1) next
 transBackground(black,hypno) next
 narrator "Ouch!"
+playSound(Ow) next
 "<color=#ccc><i>I accidently bumped into someone as I was walking to the machine.</i></color>"
+
 
 transBackground(arcadeScreenshot,topDown) next
 enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next

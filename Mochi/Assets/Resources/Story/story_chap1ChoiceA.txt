@@ -1,4 +1,4 @@
-next
+﻿next
 
 narrator "Here you go"
 setFace(Muma,Muma_8)
@@ -8,7 +8,7 @@ narrator "Alright."
 "<color=#ccc><i>While there isn't that many bikers in this route, there is a chance that someone could come this way. I mean...{a} look at us! There are two bikers brave enough to brace the danger of this path.</color></i>"
 "<color=#ccc><i>However when I turned back, the worse thing that could happen happened....</color></i>"
 
-playSound(Slap) next
+playSound(aa) next
 exit(Muma) next
 transBackground(black,hypno) next
 

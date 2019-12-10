@@ -1,4 +1,4 @@
-next
+﻿next
 
 narrator "<color=#ccc><i>I approached the stranger to see if they needed any help. Their back was turned to me so I couldn't make out a face.</i></color>"
 narrator "<color=#ccc><i>They were quickly walking around a motorbike, with their head scanning the nearby area.</i></color>"
@@ -46,4 +46,4 @@ narrator "<color=#ccc><i>I throw my bike into the side of the street and clibmed
 narrator "<color=#ccc><i>And by throw I mean park it nearby and secure it properly.</i></color>"
 narrator "<color=#ccc><i>I hopped on the bike, with one hand wrapped around Kuma and the other holding my precious mochi, as we road off towards the festival.</i></color>"
 
-Load(story_chap3)
+Load(story_chapEpilogue)
