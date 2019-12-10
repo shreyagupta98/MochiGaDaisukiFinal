@@ -1,6 +1,5 @@
 next
 playMusic(KerningCity) transBackground(arcade,radialClock) next()
-Load(story_chap2Police)
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
 "<color=#ccc><i>It’s pretty packed in the arcade this time of year, which is surprising and unsurprising depending on how you look at it. </i></color>"
 "<color=#ccc><i>Finally!{a} Street Fighter is completely vacant!</i></color>"
