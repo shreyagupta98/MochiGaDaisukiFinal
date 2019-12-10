@@ -1,37 +1,43 @@
 next
 playMusic(KerningCity) transBackground(arcade,radialClock) next()
 
-Load(story_chap2Kuma)
-
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
 "<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
-"<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of procrastination. </i></color>"
-"<color=#ccc><i>My escape from school: old-school arcade games.</i></color>"
+"<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of f****** procrastination. </i></color>"
+"<color=#ccc><i>My escape from school: some f****** old-school arcade games.</i></color>"
 "<color=#ccc><i>It’s pretty packed in the arcade this time of year, which is surprising and unsurprising depending on how you look at it. </i></color>"
 "<color=#ccc><i>Finally!{a} Street Fighter is completely vacant!</i></color>"
 "<color=#ccc><i>I’ve been secretly practicing my Blanka combos in class on an emulator on my laptop, but I just can’t seem to get passed M. Bison. </i></color>"s
 
-playSound(whoosh1) next
+playSound(Slap) next
 transBackground(black,hypno) next
 narrator "Ouch!"
-playSound(Ow) next
 "<color=#ccc><i>I accidently bumped into someone as I was walking to the machine.</i></color>"
 
 transBackground(arcade,topDown) next
 enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
-
+transBackground(black,bottomUp) next
 setFace(Kuma,concerned) next
+transBackground(arcade,topDown) exit(Kuma) next
+
 Kuma "Are you ok?!?!"
+transBackground(black,bottomUp) enter(Kuma) next
+
 narrator "Yeah I think I’ll live, thanks."
+transBackground(arcade,topDown) next
+
 "<color=#ccc><i>As I'm recovering...{a} I start to recognize the bear.</i></color>"
 "Have we met before?"
 setFace(Kuma,surprised) next
-Kuma "Not that I’m aware of, but I do tend to meet a lot of students in my line of work."
-narrator "Your line of work?"
-setFace(Kuma,happy) next
-Kuma "Yep, I’m an Assistant Professor of Computer Science here. The name’s Kuma, Professor Kuma."
 
-narrator "<color=#ccc><i>I knew it, I thought I recognized his face!{a} Prof. Kuma is relatively new here at Davis. </i></color>{c} <color=#ccc><i>He specializes in game technology and artificial intelligence. I remember how excited we all were when we heard about his arrival. </i></color>{c} <color=#ccc><i>I always wanted to take his AI class, but by the time my pass time came around, it was already filled. </i></color>"
+Kuma "Not that I’m aware of, but I do tend to meet a lot of students in my line of work."
+
+narrator "Your line of work?"
+
+setFace(Kuma,happy) next
+Kuma "Yep, I’m an Assistant Professor of Computer Science at UC Davis. The name’s Kuma, Professor Kuma."
+
+narrator "<color=#ccc><i>I knew it, I thought I recognized his face!{a} Prof. Kuma is relatively new here. </i></color>{c} <color=#ccc><i>He specializes in game technology and artificial intelligence. I remember how excited we all were when we heard about his arrival. </i></color>{c} <color=#ccc><i>I always wanted to take his AI class, but by the time my pass time came around, it was already filled. </i></color>"
 
 Kuma "Pleasure to meet you…"
 narrator "Ushi. It’s nice to meet you Professor Kuma. I’m actually a CS student here myself."
