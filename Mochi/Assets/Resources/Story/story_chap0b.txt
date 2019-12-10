@@ -1,7 +1,9 @@
 next
-transBackground(arcade,blur)
-enter(Kuma) setFace(Kuma,happy) next
-"I’ll tell you what, Ushi.{a} Why don’t we play a little game of Street Fighter to celebrate our meeting?"
+
+transBackground(arcade,blur) next
+setFace(Kuma,happy) next
+
+Kuma "I’ll tell you what, Ushi.{a} Why don’t we play a little game of Street Fighter to celebrate our meeting?"
 
 narrator "<color=#ccc><i>His words took me by surprise.{a} Do Professors even take breaks, let alone play video games?</i></color>"
 "Uhhh yeah sure I guess. But Kuma, I should let you know that-"

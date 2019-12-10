@@ -9,7 +9,7 @@ setFace(Kuma,laugh) next
 
 setFace(Kuma,happy) next
 Kuma "An excellent game!{a} Want to play again?"
-narrator "No, I think I’m good Professor, thanks.{c} I think I should head over to Shields.{a} I’ve got an all-nighter to pull for my final tomorrow."
+narrator "No, I think I’m good Professor, thanks.{c}It's getting late. I should be heading home."
 
 setFace(Kuma,sad) next
 Kuma "Of course.{a} Sorry, I can get a little too competitive sometimes.
@@ -20,16 +20,17 @@ narrator "<color=#ccc><i>You think you can actually beat me if I was actually tr
 
 setFace(Kuma,happy) next
 Kuma "But listen{a} I had a lot of fun playing with it,{a} even though it was a little one-sided."
-"Just curious, I was wondering whether or not you might be curious in attending a Mochi Festival next week after finals?{a} We plan on having a small little competition for SF during the festival as well."
+"Just curious, I was wondering whether or not you might be curious in attending a Mochi Festival next week?{a} We plan on having a small little competition for SF during the festival as well."
 "You should definitely consider it,{a} Who knows?{a} You might somehow win the tournmanent! The entrance fee is only a box of Mochi,{a} with the prize being a year supply of it in return!"
 
 narrator "<color=#ccc><i>I did toss today's game so as not to hurt his feeling. A small tournament would be a great chance to regain my pride as a SF competitor.{a} Not to mention that a year supply of mochi would be one heck of a prize.</i></color>"
 "Yeah that sounds like a great idea, thanks. I guess I’ll see you next week!"
 
-Kuma "Indeed, it’s been a pleasure Ushi!{a} Good luck with your finals!"
+Kuma "Indeed, it’s been a pleasure Ushi!"
 
 exit(Kuma) next
 
-narrator "<color=#ccc><i>As I left the arcade, I took one final glance over my shoulders, and saw Professor Kuma waving at me with a big smile and closed eyes in a Brock-like fashion.{a} I waved back and headed to the library, dreading the night I was about to have.{a} But at least there was something to look forward to after finals.</i></color>"
+narrator "<color=#ccc><i>As I left the arcade, I took one final glance over my shoulders, and saw Professor Kuma waving at me with a big smile and closed eyes in a Brock-like fashion.</i></color>"
+"<color=#ccc><i>I waved back and went back home, happy that there was something to look forward to next week.</i></color>"
 
 Load(story_chap1Bicycle)

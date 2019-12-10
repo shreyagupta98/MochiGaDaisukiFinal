@@ -14,7 +14,7 @@ transBackground(arcade,topDown) next
 enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
 setFace(Kuma,concerned) next
 
-Kuma "Are you ok?!?!"
+Kuma "Are you ok?!?!" 
 transBackground(black,bottomUp) exit(Kuma) next
 
 narrator "Yeah I think I’ll f****** live, thanks."

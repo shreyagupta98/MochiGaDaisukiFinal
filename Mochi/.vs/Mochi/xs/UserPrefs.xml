@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{BA9F8E84-316D-4A45-7547-603AD0C89628}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Story/story_chap2PoliceGO1.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Story/story_chap1Bicycle.txt">
     <Files>
-      <File FileName="Assets/Resources/Story/story_chap0a.txt" Line="6" Column="14" />
-      <File FileName="Assets/Resources/Story/story_chap2Police.txt" Line="29" Column="2" />
-      <File FileName="Assets/Resources/Story/story_chap2Kuma.txt" Line="13" Column="48" />
-      <File FileName="Assets/Resources/Story/story_chap2PoliceGO1.txt" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Story/story_chap1ChoiceA.txt" Line="31" Column="28" IsPinned="True" />
+      <File FileName="Assets/Resources/Story/story_chap0a.txt" Line="1" Column="7" />
+      <File FileName="Assets/Resources/Story/story_chap2Police.txt" Line="17" Column="1" />
+      <File FileName="Assets/Resources/Story/story_chap2Kuma.txt" Line="4" Column="60" />
+      <File FileName="Assets/Resources/Story/story_chap2PoliceGO1.txt" Line="21" Column="94" />
       <File FileName="Assets/Resources/Story/story_chap2PoliceGO2.txt" Line="21" Column="28" />
+      <File FileName="Assets/Resources/Story/story_chap0b.txt" Line="21" Column="1" />
+      <File FileName="Assets/Resources/Story/story_chap2Right.txt" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Story/story_chap0c.txt" Line="22" Column="99" />
+      <File FileName="Assets/Resources/Story/story_chap1Bicycle.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +19,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Resources" expanded="True">
                 <Node name="Story" expanded="True">
-                  <Node name="story_chap2PoliceGO1.txt" selected="True" />
+                  <Node name="story_chap1Bicycle.txt" selected="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
