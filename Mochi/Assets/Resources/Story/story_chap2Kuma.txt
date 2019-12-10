@@ -1,4 +1,4 @@
-next
+﻿next
 
 transBackground(safeclose,blur) next
 enter(Kuma) setBody(Kuma,Kuma2back) setFace(Kuma,none) next
