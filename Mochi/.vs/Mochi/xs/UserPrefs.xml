@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{BA9F8E84-316D-4A45-7547-603AD0C89628}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Story/story_chap0a.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Story/story_chap0b.txt">
     <Files>
-      <File FileName="Assets/Resources/Story/story_chap0a.txt" Line="10" Column="23" />
+      <File FileName="Assets/Resources/Story/story_chap0a.txt" Line="25" Column="38" />
+      <File FileName="Assets/Resources/Story/story_chap0b.txt" Line="15" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Resources" expanded="True">
                 <Node name="Story" expanded="True">
-                  <Node name="story_chap0a.txt" selected="True" />
+                  <Node name="story_chap0b.txt" selected="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">

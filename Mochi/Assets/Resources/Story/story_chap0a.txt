@@ -11,20 +11,18 @@ narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this w
 
 playSound(Slap) next
 transBackground(black,hypno) next
-narrator "Ouch!"
+narrator "Ouch!{a} What the f***?!"
 "<color=#ccc><i>I accidently bumped into someone as I was walking to the machine.</i></color>"
 
 transBackground(arcade,topDown) next
 enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
-transBackground(black,bottomUp) next
 setFace(Kuma,concerned) next
-transBackground(arcade,topDown) exit(Kuma) next
 
 Kuma "Are you ok?!?!"
-transBackground(black,bottomUp) enter(Kuma) next
+transBackground(black,bottomUp) exit(Kuma) next
 
-narrator "Yeah I think I’ll live, thanks."
-transBackground(arcade,topDown) next
+narrator "Yeah I think I’ll f****** live, thanks."
+transBackground(arcade,topDown) enter(Kuma) next
 
 "<color=#ccc><i>As I'm recovering...{a} I start to recognize the bear.</i></color>"
 "Have we met before?"
