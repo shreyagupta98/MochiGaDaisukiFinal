@@ -1,10 +1,10 @@
 next
 
-transBackground(safefar, blur) next
+transBackground(safefar, blur) enter(bike) next
 
-narrator "<color=#ccc><i>As I raced down the road, I noticed someone in front of me off the side of the road scurrying around in a panicked manner.</i></color>"
-narrator "<color=#ccc><i>Whoever it is looks really stressed out. Maybe I should go over and see if I can help?</i></color>"
-narrator "<color=#ccc><i>What should I do?{c}A. Go and help the stranger{a} <br>B. Keep going, we ain't got time for that!</i></color>"
+narrator "<color=#ccc><i>As I [move(bike,0.6)]raced down the road[move(bike,0.4)], I noticed [move(bike,0.5)]someone in [move(bike,0.3)]front of me off the side [move(bike,0.5)]of the road scurrying around in a [move(bike,0.6)]panicked manner.</i></color>"
+"<color=#ccc><i>Whoever it is looks [move(bike,0.4)]really stressed out. Maybe I should[move(bike,0.5)] go over and see if I can help?</i></color>"
+"<color=#ccc><i>What should I do?{c}A. Go and help the stranger{a} <br>B. Keep going, we ain't got time for that!</i></color>"
 
 choice "What should I do?"
 {

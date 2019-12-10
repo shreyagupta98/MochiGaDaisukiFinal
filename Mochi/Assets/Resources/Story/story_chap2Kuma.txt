@@ -10,7 +10,7 @@ narrator "<color=#ccc><i>Hi[move(Kuma,0.6)] excuse[move(Kuma,0.4)] me, [move(Kum
 
 narrator "<color=#ccc><i>Before I could finish, the stranger turned to face me.</i></color>"
 
-setBody(Kuma,Kuma2main) setFace(Kuma,surprised) next
+setBody(Kuma,Kuma2main) setFace(Kuma,surprised) exit(bike) next
 
 Kuma "Well would you look at that, if it isn't Ushi! Very nice..."
 narrator "<color=#ccc><i>Oh wow, hi Kuma. I saw that you looked a little panicky. What happened?</i></color>"

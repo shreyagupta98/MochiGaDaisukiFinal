@@ -1,35 +1,42 @@
 next 
 
 playMusic(Home) transBackground(sofa,blur) next()
-narrator "<color=#ccc><i>It was the morning of the Mochi Festival. A week has passed, and I spent most of it at home, dodging my parents questions,{a} so it was relieving to be back in Davis, where I could focus on things that matter...{a} like sleeping.</color></i>" 
-
-"<color=#ccc><i>Speaking of sleep…{a} I also can’t forget the mochi that I'm supplying for the festival.</color></i>"
-"<color=#ccc><i>Speaking of that...{a} I can already imagine the amount of mochi that I can feast on when the festival starts.</color></i>"
-"<color=#ccc><i>My stomach growled at the thought.</color></i>"
-
+narrator "<color=#ccc><i>It's the morning of the Mochi Festival!</color></i>" 
+"<color=#ccc><i>I'm so tired, I could just go back to sleep...</color></i>" 
+"<color=#ccc><i>...speaking of sleep...{a}</color></i>"
+transBackground(black,bottomUp) next
+"<color=#ccc><i>I could just sleep for 5{a} more{a} minutes.</color></i>"
+"OH S*** I'M GETTING LATE!!!!!"
+transBackground(sofa,topDown) next
+"<color=#ccc><i>Okay, what do I have to do? {a}First: get ready. {a}Second: get dressed. {a}And what was the third thing again?{a} Oh right! Get mochi!!</color></i>"
+"<color=#ccc><i>My stomach growls at the thought of mochi.</color></i>"
 
 "<color=#ccc><i>Crap![playMusic(BicycleTheme)]{a} It’s 8:50AM. The mochi festival is in an hour at 10AM!{a} I still have to deliver the mochi to Kuma for the festival.</color></i>"
 
-transBackground(road,blur) next()
+transBackground(road,blur) enter(bike) next()
 "<color=#ccc><i>I left my room,{a} ready to bolt to the festival on my bike with the supply on mochi in toll.</color></i>"
 
-narrator "<color=#ccc><i>It's raining.{a} I can barely see in front of me.</color></i>" 
-"<color=#ccc><i>The bike lanes are empty because it is really early in the morning.{a}</color></i>" 
-"It's not looking too good....." 
-"<color=#ccc><i>My watch currently reads 8:55AM.{a} The chances of me making it to the festival without flooring it hard looks slim.</color></i>"
+move(bike,0.9) next
+narrator "<color=#ccc><i>It's raining.{a} [move(bike,0.4)]I can barely see in front of me.</color></i>"
+"<color=#ccc><i>The bike lanes are empty because it[move(bike,0.5)] is really early in the morning.{a}</color></i>"
+"It's not looking too [move(bike,0.6)]good....."
+"<color=#ccc><i>My watch currently reads 8:55AM.{a} The chances of me making it to the [move(bike,0.5)]festival without flooring it hard looks slim.</color></i>"
 
 transBackground(mainroadblock,blur) next()
 
 "<color=#ccc><i>As I approach an intersection, it splits into 2 sections.{a} Now, I really need to make a choice.</color></i>" 
 "<color=#ccc><i>The left path takes me to a less dangerous bike route....{a} But it's currently blocked.</color></i>"
+move(bike,0.7) next
 "<color=#ccc><i>So, I have to take the more dangerous path down to the right.</color></i>" 
 
 transBackground(dangerfar,blur) next()
 
-narrator "<color=#ccc><i>As I’m slowly maneuvering the sharp inclines and turns of the dangerous bike,{a} I encounter a stranger on the side of the road, on his bike.</color></i>"  
+move(bike,0.5) next
+narrator "<color=#ccc><i>As I’m slowly[move(bike,0.6)] maneuvering the sharp[move(bike,0.7)] inclines and [move(bike,0.8)]turns of the dangerous [move(bike,0.5)]bike,{a} I encounter a stranger[move(bike,0.3)] on the side[move(bike,0.4)] of the road, [move(bike,0.7)]on his bike.</color></i>"  
 
+[move(bike,0.3)]
 transBackground(dangerclose,blur) playMusic(null) playMusic(Mystery) next()
-enter(Muma) setPosition(Muma,0.8) setFace(Muma,Muma_12) next
+enter(Muma) exit(bike) setPosition(Muma,0.8) setFace(Muma,Muma_12) next
 Muma "Help!!{a} I need to desperately call my parents.{a} I need to let them know about me being late to our group meeting."
 "They are going to be really worried about my whereabouts.{a} Could you please help me out here by letting me borrow your phone?{a} I don’t have my cellphone with me at the moment."
 

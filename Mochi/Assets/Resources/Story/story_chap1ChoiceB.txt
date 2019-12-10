@@ -13,12 +13,12 @@ Muma "I'm getting old. Don't make fun of your elders!"
 playMusic(null) playSound(PhoneRingTone) next
 
 narrator "<color=#ccc><i>Wait a second.{a} I thought this guy didn't have a phone.</color></i>"
-"Wait! Is that a phon--"
+"Wait! Is that a f****** phon--"
 
 playSound(aa) exit(Muma) transBackground(black,hypno) next
 
 "<color=#ccc><i>Before I could finish my sentence, a fist clocks me right across my chin.</color></i>"
-"<color=#ccc>Damn it...{a} I knew I should not have trusted this guy....</color></i>"
+"<color=#ccc>D******* {a} I knew I should not have trusted this guy....</color></i>"
 
 enter(Muma) transBackground(dangerfar,blur) next
 
