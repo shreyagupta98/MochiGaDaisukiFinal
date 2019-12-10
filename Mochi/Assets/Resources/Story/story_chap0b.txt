@@ -1,12 +1,9 @@
 next
 transBackground(arcade,blur)
-enter(Kuma) setFace(Kuma,disappointed) next
-Kuma "Oh I understand, trust me...{a} it doesn’t get any easier when you get to where I am.{c} Why do you think I’m here?"
+enter(Kuma) setFace(Kuma,happy) next
+"I’ll tell you what, Ushi.{a} Why don’t we play a little game of Street Fighter to celebrate our meeting?"
 
-setFace(Kuma,happy) next
-"I’ll tell you what, Ushi.{a} Why don’t we play a little game of Street Fighter to wrap up our little break?"
-
-narrator "<color=#ccc><i>His words took me by surprise.{a} It’s like the more time I spend with him, the more human he becomes.{c}Do Professors even take breaks, let alone play video games?</i></color>"
+narrator "<color=#ccc><i>His words took me by surprise.{a} Do Professors even take breaks, let alone play video games?</i></color>"
 "Uhhh yeah sure I guess. But Kuma, I should let you know that-"
 
 setFace(Kuma,laugh) next
@@ -14,7 +11,7 @@ Kuma "Excellent!{c} Quick question though, do you have two quarters?"
 setFace(Kuma,blush) next
 "Sorry, once you become a professor, you start to forget the little things."
 
-narrator "<color=#ccc><i>Here I am...{a} paying tens of thousands of dollars just to be here...{a} and I’m being asked for half a dollar?{c}But to be fair, I guess we all have student loans to pay off.{a} Also, who comes to an arcade without quarters?</i></color>"
+narrator "<color=#ccc><i>The quarters were the last thing on my mind though.</i></color>"
 "Yeah of course, I can pay. But I really need to tell you-"
 
 setFace(Kuma,giddy) next
