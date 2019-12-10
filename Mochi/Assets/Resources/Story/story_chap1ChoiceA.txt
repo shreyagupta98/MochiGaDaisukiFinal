@@ -18,7 +18,7 @@ transBackground(dangerclose,blur) playMusic(null) next()
 enter(Muma) setBody(Muma,Muma_1) setFace(Muma,Muma_7) next
 
 narrator "<color=#ccc><i>I see the stranger I was helping on his bike, biking away with my phone.</color></i>"
-"Son of a***,{a} HEYYYY!!!{a} THIEF!!!{a}  ********* {a} COME BACK HERE!!!!!!'" 
+"Son of a***,{a} HEYYYY!!!{a} THIEF!!!{a}  ********* {a} COME BACK HERE!!!!!!" 
 "<color=#ccc><i>It was too late.{a} He was already out of sight.</color></i>" 
 
 exit(Muma) next

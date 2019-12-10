@@ -16,9 +16,9 @@ TextureImporter:
     21300022: disappointed
     21300024: worried
     21300026: sad
-    21300028: Kumar+14
-    21300030: Kuma_15
-    21300032: Kuma_16
+    21300028: Kuma2main
+    21300030: Kuma2back
+    21300032: none
     21300034: Kuma_17
     21300036: Kuma_18
     21300038: Kuma_19
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kumar+14
+      name: Kuma2main
       rect:
         serializedVersion: 2
         x: 4
@@ -406,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma_15
+      name: Kuma2back
       rect:
         serializedVersion: 2
         x: 487
@@ -426,7 +426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma_16
+      name: none
       rect:
         serializedVersion: 2
         x: 4

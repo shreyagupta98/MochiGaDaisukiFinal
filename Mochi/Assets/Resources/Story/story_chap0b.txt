@@ -1,6 +1,8 @@
 next
-setFace(Kuma,disappointed) next
+transBackground(arcade,blur)
+enter(Kuma) setFace(Kuma,disappointed) next
 Kuma "Oh I understand, trust me...{a} it doesn’t get any easier when you get to where I am.{c} Why do you think I’m here?"
+
 setFace(Kuma,happy) next
 "I’ll tell you what, Ushi.{a} Why don’t we play a little game of Street Fighter to wrap up our little break?"
 
@@ -20,7 +22,9 @@ Kuma "Great! No more waiting around, let’s get this show on the road!"
 
 narrator "<color=#ccc><i>Kuma grabbed the two quarters I had pulled out of my pocket and inserted them into the game.{c}I was going to let him know that I was nationally ranked at Street Fighter,{a} so I’m probably going to destroy him if I try.</i></color>"
 "<color=#ccc><i>If I win, I might impress him, or I could end up annoying him.{a} If I intentionally lose and let him win, it’ll make him look great,{a} with the only expense being an imaginary and perceived drop in my own confidence.</i></color>"
-"Do I let him win?{c} A. Let Kuma win.{a} B. Game on!" 
+"Do I let him win?{c} A. Let Kuma win.<br>{a} B. Game on!"
+
+transBackground(arcadebw,blur) exit(Kuma) next
 
 choice "Do I let Kuma win?"
 {
@@ -29,5 +33,3 @@ choice "Do I let Kuma win?"
   "B"
     Load(story_chap0E3)
 }
-
-

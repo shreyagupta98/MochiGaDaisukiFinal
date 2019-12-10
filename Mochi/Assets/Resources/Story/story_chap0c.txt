@@ -1,13 +1,15 @@
 next
+transBackground(arcade,blur)
+enter(Kuma)
 playSound(PlayingArcadeVSProf) next
 narrator "<color=#ccc><i>It was over in a flash.{a} I never stood a chance.{a} Well, I did but I couldn’t let him know.</i></color>"
 setFace(Kuma,laugh) next
-"<color=#ccc><i>When he got his second “Perfect”, he fist-pumped the air around him and as he celebrated, I could see how proud he was.</i></color>"
+"<color=#ccc><i>When he got his second “Perfect”, he smiled so brightly and as he celebrated, I could see how proud he was.</i></color>"
 "<color=#ccc><i>It actually kind of hurt a little. I normally don’t like to lose, especially hypothetically. But seeing how happy it made him, I think I can live with it.</i></color>"
 
 setFace(Kuma,happy) next
 Kuma "An excellent game!{a} Want to play again?"
-narrator "'No, I think I’m good Professor, thanks.'{c} 'I think I should head over to Shields.{a} I’ve got an all-nighter to pull for my final tomorrow.'"
+narrator "No, I think I’m good Professor, thanks.{c} I think I should head over to Shields.{a} I’ve got an all-nighter to pull for my final tomorrow."
 
 setFace(Kuma,sad) next
 Kuma "Of course.{a} Sorry, I can get a little too competitive sometimes.
@@ -22,7 +24,7 @@ Kuma "But listen{a} I had a lot of fun playing with it,{a} even though it was a 
 "You should definitely consider it,{a} Who knows?{a} You might somehow win the tournmanent! The entrance fee is only a box of Mochi,{a} with the prize being a year supply of it in return!"
 
 narrator "<color=#ccc><i>I did toss today's game so as not to hurt his feeling. A small tournament would be a great chance to regain my pride as a SF competitor.{a} Not to mention that a year supply of mochi would be one heck of a prize.</i></color>"
-"'Yeah that sounds like a great idea, thanks. I guess I’ll see you next week!'"
+"Yeah that sounds like a great idea, thanks. I guess I’ll see you next week!"
 
 Kuma "Indeed, it’s been a pleasure Ushi!{a} Good luck with your finals!"
 

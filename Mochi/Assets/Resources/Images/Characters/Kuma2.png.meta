@@ -2,21 +2,21 @@ fileFormatVersion: 2
 guid: 5f980fbb5c3a0463e94b97ad19298a21
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Kuma2_0
-    21300002: Kuma2_1
+    21300000: mainbody
+    21300002: back
     21300004: Kuma2_2
     21300006: Kuma2_3
-    21300008: Kuma2_4
-    21300010: Kuma2_5
-    21300012: Kuma2_6
-    21300014: Kuma2_7
-    21300016: Kuma2_8
-    21300018: Kuma2_9
-    21300020: Kuma2_10
-    21300022: Kuma2_11
-    21300024: Kuma2_12
-    21300026: Kuma2_13
-    21300028: Kuma2_14
+    21300008: angry
+    21300010: blush
+    21300012: happy
+    21300014: giddy
+    21300016: laugh
+    21300018: concerned
+    21300020: surprised
+    21300022: disappointed
+    21300024: worried
+    21300026: sad
+    21300028: none
     21300030: Kuma2_15
     21300032: Kuma2_16
     21300034: Kuma2_17
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kuma2_0
+      name: mainbody
       rect:
         serializedVersion: 2
         x: 4
@@ -114,7 +114,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_1
+      name: back
       rect:
         serializedVersion: 2
         x: 487
@@ -134,7 +134,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,7 +154,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +174,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,15 +186,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_4
+      name: angry
       rect:
         serializedVersion: 2
-        x: 4
-        y: 6509
+        x: 19
+        y: 6494
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_5
+      name: blush
       rect:
         serializedVersion: 2
         x: 487
@@ -214,7 +214,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_6
+      name: happy
       rect:
         serializedVersion: 2
         x: 4
@@ -234,7 +234,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_7
+      name: giddy
       rect:
         serializedVersion: 2
         x: 487
@@ -254,7 +254,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_8
+      name: laugh
       rect:
         serializedVersion: 2
         x: 4
@@ -274,7 +274,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_9
+      name: concerned
       rect:
         serializedVersion: 2
         x: 487
@@ -294,7 +294,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_10
+      name: surprised
       rect:
         serializedVersion: 2
         x: 4
@@ -314,7 +314,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_11
+      name: disappointed
       rect:
         serializedVersion: 2
         x: 487
@@ -334,7 +334,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,7 +346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_12
+      name: worried
       rect:
         serializedVersion: 2
         x: 4
@@ -354,7 +354,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -366,7 +366,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_13
+      name: sad
       rect:
         serializedVersion: 2
         x: 487
@@ -374,7 +374,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kuma2_14
+      name: none
       rect:
         serializedVersion: 2
         x: 4
@@ -394,7 +394,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,7 +414,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,7 +434,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +454,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,7 +474,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,7 +494,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,7 +514,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -534,7 +534,7 @@ TextureImporter:
         width: 478
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

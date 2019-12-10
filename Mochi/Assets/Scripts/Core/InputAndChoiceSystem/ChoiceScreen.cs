@@ -93,10 +93,10 @@ public class ChoiceScreen : MonoBehaviour
 	{
 		int i = choices.Count;
 		if (i <= 3)
-			instance.layoutGroup.spacing = 2;
+			instance.layoutGroup.spacing = 20;
 		else
 		{
-            instance.layoutGroup.spacing = 1;
+            instance.layoutGroup.spacing = 15;
         }
 	}
 

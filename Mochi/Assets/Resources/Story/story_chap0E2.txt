@@ -1,7 +1,9 @@
 next
+enter(Kuma) transBackground(arcade,blur) next
 
-Kuma "Well to be honest{a} [transBackground(GameOver, blur)], I really hope you don’t take my class."
+Kuma "Well to be honest{a}, I really hope you don’t take my class."
 
-exit(Kuma) next
-narrator "GAME OVER"
+exit(Kuma) transBackground(GameOver,blur) next
+narrator "PRESS RIGHT TO START OVER FROM SAVED CHAPTER"
+
 Load(story_chap0a)

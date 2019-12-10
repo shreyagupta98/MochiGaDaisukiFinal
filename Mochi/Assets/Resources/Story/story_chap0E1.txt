@@ -1,12 +1,10 @@
 next
-
-setFace(Kuma,concerned) next
+transBackground(arcade,blur)
+enter(Kuma) setFace(Kuma,concerned) next
 Kuma "Well, that wasn’t very Christmassy was it?"
 
-transBackground(GameOver,blur) next
 "Goodbye Ushi, it was a pleasure knowing you."
-
-exit(Kuma) next
-narrator "GAME OVER"
+exit(Kuma) transBackground(GameOver,blur) next
+narrator "PRESS RIGHT TO START OVER FROM SAVED CHAPTER"
 
 Load(story_chap0a)

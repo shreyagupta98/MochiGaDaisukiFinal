@@ -2,7 +2,7 @@ next
 
 Muma "Oh, thats a shame.{a} Aren’t you willing to help a person in trouble?"
 
-narrator "'What sort of person even forgets their cell phone in this day and age?'"
+narrator "What sort of person even forgets their cell phone in this day and age?"
 
 Muma "Hey, no one’s perfect, everybody has their bad days."
 
@@ -13,14 +13,14 @@ Muma "I'm getting old. Don't make fun of your elders!"
 playMusic(null) playSound(PhoneRingTone) next
 
 narrator "<color=#ccc><i>Wait a second.{a} I thought this guy didn't have a phone.</color></i>"
-"'Wait! Is that a phon--'"
+"Wait! Is that a phon--"
 
 playSound(Slap) exit(Muma) transBackground(black,hypno) next
 
 "<color=#ccc><i>Before I could finish my sentence, a fist clocks me right across my chin.</color></i>"
 "<color=#ccc>Damn it...{a} I knew I should not have trusted this guy....</color></i>"
 
-enter(Muma) next
+enter(Muma) transBackground(dangerfar,blur) next
 
 Muma "Woahh, that was close! I should take his phone before he wakes up."
 "Hahahahaha!{a} Another phone{a} for my collection!" 
@@ -28,8 +28,8 @@ Muma "Woahh, that was close! I should take his phone before he wakes up."
 exit(Muma) next
 transBackground(dangerclose,blur) next
 
-narrator "'Ow.....'"
-"<color=#ccc><i>I was still reeling from the blow I took from the thief.</color></i>"
+narrator "Ow....."
+"<color=#ccc><i>I was still reeling from the blow I took from the thief.</i></color>"
 "<color=#ccc><i>How could I be so dumb. There was no way a sane man would go into this path without a phone!</color></i>"
 "<color=#ccc><i>Hmm...{a} It seems he only stole my phone. My bike and mochi is still safe. I only knocked out for 5 minutes.</color></i>"
 "<color=#ccc><i>I still got a chance to make it to the mochi festival...{a} First, I’ve got to head back.</color></i>"

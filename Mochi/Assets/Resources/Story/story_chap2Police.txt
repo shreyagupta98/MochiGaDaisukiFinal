@@ -1,4 +1,6 @@
-next 
+next
+
+transBackground(safefar, blur) next
 
 narrator "<color=#ccc><i>I do not have time to help the stranger.</i></color>"
 "<color=#ccc><i>I speed my way around the stranger and continue to go down the bike path.</i></color>"

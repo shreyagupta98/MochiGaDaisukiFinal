@@ -1,5 +1,8 @@
 next
-playMusic(KerningCity) transBackground(arcadeScreenshot,radialClock) next()
+playMusic(KerningCity) transBackground(arcade,radialClock) next()
+
+Load(story_chap2Kuma)
+
 narrator "<color=#ccc><i>Here I was, at the arcade again for the 3rd time this week.</i></color>"
 "<color=#ccc><i>I guess that’s what Finals week of Fall Quarter does to you. </i></color>"
 "<color=#ccc><i>I’ve been at UC Davis for three years now and, like everyone, I’ve developed and mastered my skills of procrastination. </i></color>"
@@ -13,7 +16,7 @@ transBackground(black,hypno) next
 narrator "Ouch!"
 "<color=#ccc><i>I accidently bumped into someone as I was walking to the machine.</i></color>"
 
-transBackground(arcadeScreenshot,topDown) next
+transBackground(arcade,topDown) next
 enter(Kuma) setBody(Kuma,mainbodyblue) setFace(Kuma,angry) next
 
 setFace(Kuma,concerned) next
@@ -37,6 +40,9 @@ setFace(Kuma,worried) next
 narrator "Kuma then paused for a second, staring at me with a stern and judgemental face, like a somewhat disappointed parent."
 Kuma "Hmmm....{a} Tell me something, Ushi.{c} If it’s finals week...{a} why are you here at an arcade instead of studying?"
 narrator "How should I respond?{c}A. Because it’s so much fun jeez what are you my mom?{a} <br>B. I’ve been studying hard all day, I honestly just needed a break.{a} <br>C. It’s ok, my project partner is carrying me through my final project!"
+
+transBackground(arcadebw,blur) exit(Kuma) next
+
 choice "How should I respond"
 {
   "A"

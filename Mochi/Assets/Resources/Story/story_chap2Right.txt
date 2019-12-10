@@ -4,6 +4,9 @@ narrator "<color=#ccc><i>The further I biked down this road, the more uneasy I f
 narrator "<color=#ccc><i>A mist started to grow as I continued biking, until suddenly I was completely shrouded in it...</i></color>"
 narrator "<color=#ccc><i>...until suddenly, I was completely lost. I had no idea where I was and how to get back.</i></color>"
 narrator "<color=#ccc><i>I'll never get to the festival in time.</i></color>"
-narrator "GAME OVER"
+
+transBackground(GameOver,blur) next()
+narrator "PRESS RIGHT TO START OVER FROM SAVED CHAPTER"
+
 
 Load(story_chap2PathChoice)
