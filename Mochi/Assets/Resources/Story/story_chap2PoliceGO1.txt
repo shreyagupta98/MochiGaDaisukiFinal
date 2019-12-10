@@ -2,7 +2,7 @@ next
 
 narrator "<color=#ccc><i>I decided to stop and uphold the law. Who knows. Maybe I can ask the police for a ride.</i></color>"
 
-Puma "Sir, do you know why we are pulling you over?" 
+Puma "Sir, do you know why we are pulling you over?"
 
 narrator "No. Not really." 
 
@@ -18,10 +18,10 @@ Puma "I'm sorry.{a} But you cannot use your tournament as an excuse.{a} Please c
 
 exit(Puma) next
 
-narrator "<color=#ccc><i>I attempt to run before he was ready.{a} However, it was inevitable.[enter(Puma)]{a} Within seconds, he caught up to me and grabbed me.[transBackground(black,hypno)] I fell, and he easily restrained me on the ground.{c}I guess my mochi days are....{a} over.</i></color>"
+narrator "<color=#ccc><i>I attempt to run before he was ready.{a} However, it was inevitable.{a} Within seconds, he caught up to me and grabbed me.[transBackground(black,hypno)] I fell, and he easily restrained me on the ground.{c}I guess my mochi days are....{a} over.</i></color>"
 
 transBackground(GameOver,blur) next
 
-"GAME OVER" 
+narrator "PRESS RIGHT TO START OVER FROM SAVED CHAPTER"
 
 Load(story_chap2PathChoice)

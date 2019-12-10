@@ -2,7 +2,7 @@ next
 
 playMusic(GasGasGas) exit(Puma) next
 
-narrator "<color=#ccc><i>I did not care who it was.{a} My mind was set on one goal.{a} A year's worth of mochi is too much to give up.{a} Screw the pol-</i></color>"
+narrator "<color=#ccc><i>I did not care who it was.{a} My mind was set on one goal.{a} A year's worth of mochi is too much to give up.{a} S**** the pol-</i></color>"
 
 playMusic(null) playSound(Slap) transBackground(black,hypno) next
 
@@ -12,10 +12,10 @@ playMusic(null) playSound(Slap) transBackground(black,hypno) next
 
 playSound(Slap) next
 
-"<color=#ccc><i>All I could see before I fell from my bikes were my mochi...{a} falling off from my bike.</i></color>" 
+"<color=#ccc><i>The last thing I saw was my mochi...{a} falling to the ground.</i></color>" 
 
 transBackground(GameOver,blur) next
 
-"GAME OVER"
+narrator "PRESS RIGHT TO START OVER FROM SAVED CHAPTER"
 
 Load(story_chap2PathChoice)
