@@ -1,5 +1,5 @@
 next
-transBackground(mochifest,blur) next
+transBackground(mochifest,blur) playMusic(Festival) next
 
 narrator "<color=#ccc><i>We finally made it....{a} In front of me is Kuma's amazing Mochi festival.</i></color>"
 
@@ -35,7 +35,7 @@ Kuma "Well, good luck then Ushi!{a} I'm not going to be signing since I will be 
 exit(Kuma) next
 
 narrator "<color=#ccc><i>As I watch Kuma walk away, I see all the games I have been looking forward to play.{a} Today has been an eventful day to say the least,{a} and I am just glad to finally be here in one piece.</i></color>"
-"<color=#ccc><i>Now, I have the chance to compete in a real, large-scale gaming tournament. {a}I can't wait!</i></color>"
+"<color=#ccc><i>[playMusic(Hype)]Now, I have the chance to compete in a real, large-scale gaming tournament. {a}I can't wait!</i></color>"
 transBackground(mochifestclose,blur) next
 
 narrator "Let's get this mochi." 
