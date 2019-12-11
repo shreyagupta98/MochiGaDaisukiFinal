@@ -3,15 +3,15 @@ transBackground(mochifest,blur) next
 
 narrator "<color=#ccc><i>We finally made it....{a} In front of me is Kuma's amazing Mochi festival.</i></color>"
 
-"<color=#ccc><i>The whole event was crowded. There were kids and adults alike enjoying the different types of mochi that vendors are handing out.</i></color>"
-"<color=#ccc><i>And in the middle of it all, a tournament stage with amazing lighting set up....{a} and to the side of it......{a} the monument of the festival....</i></color>"
+"<color=#ccc><i>The whole event is crowded. There are kids and adults alike enjoying the different types of mochi that vendors are handing out.</i></color>"
+"<color=#ccc><i>And in the middle of it all, a tournament stage with amazing lighting set up......{a} and to the side of it......{a} the monument of the festival......</i></color>"
 "<color=#ccc><i>The boxes containing the YEAR'S{a} WORTH{a} OF MOCHI.</i></color>"
 
 enter(Kuma) next
 
 Kuma "Well, here we are."
 
-narrator "This place is majestic....{a} Look at all the people...{a} Not to mention that amazing stadium in the middle."
+narrator "This place is majestic...{a}look at all the people...{a}not to mention that amazing stadium in the middle."
 
 Kuma "This festival is my pride and joy!{a} I can't have a festival of my favorite food looking terrible now can I?"
 
@@ -23,11 +23,11 @@ narrator "<color=#ccc><i> Kuma points right next to a stand at a stadium.</i></c
 
 "<color=#ccc><i>Kuma chuckles at my daring words.</i></color>"
 
-Kuma "Well good luck then Ushi!{a} I'm not going to be signing since I will be a commentator today.{a} May the best contendor win!" 
+Kuma "Well, good luck then Ushi!{a} I'm not going to be signing since I will be a commentator today.{a} May the best contendor win!" 
 
 exit(Kuma) next
 
-narrator "<color=#ccc><i>I give my thanks to Ushi and went to the stand to sign up. Ushi went to the commentator's desk for his preparations.</i></color>"
+narrator "<color=#ccc><i>I give my thanks to Ushi and head to the stand to sign up. Ushi went to the commentator's desk for his preparations.</i></color>"
 
 "Entrance for one please... And here is my box of mochi as the entrance fee."
 
