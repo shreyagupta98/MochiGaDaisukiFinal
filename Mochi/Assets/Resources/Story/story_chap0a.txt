@@ -1,4 +1,3 @@
-Load(story_chap2Police)
 next
 
 playMusic(KerningCity) transBackground(arcade,radialClock) next()

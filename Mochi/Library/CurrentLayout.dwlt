@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 883, y: 474}
   m_MaxSize: {x: 16008, y: 14024}
   vertical: 0
-  controlID: 15171
+  controlID: 485
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 474}
   m_MaxSize: {x: 12008, y: 14024}
   vertical: 1
-  controlID: 15172
+  controlID: 486
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 224}
   m_MaxSize: {x: 12008, y: 4024}
   vertical: 0
-  controlID: 15173
+  controlID: 487
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,7 +409,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4e83ffffa0c70000a2c70000a4c70000
+      m_ExpandedIDs: c4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,14 +459,14 @@ MonoBehaviour:
     height: 506
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 0a3e3f675b9e7494a91e039ba5389c85
-  m_SceneLighting: 0
+  m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 242.01906, y: 136.3335, z: 0}
+    m_Target: {x: 336.07898, y: 190.13899, z: -345.24}
     speed: 2
-    m_Value: {x: 242.01906, y: 136.3335, z: 0}
+    m_Value: {x: 336.07898, y: 190.13899, z: -345.24}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -498,9 +498,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 537.82294
+    m_Target: 97.25819
     speed: 2
-    m_Value: 537.82294
+    m_Value: 97.25819
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -576,20 +576,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Characters
+    - Assets/Resources/Story
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Characters
+  - Assets/Resources/Story
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/shreyagupta/Documents/GitHub/MochiGaDaisukiFinal/Mochi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31.99939}
-    m_SelectedIDs: 26390000
-    m_LastClickedID: 14630
-    m_ExpandedIDs: 00000000f23700003a3800003a3900003e390000d63900004e3a0000ae3a000000ca9a3b
+    scrollPos: {x: 0, y: 93.99896}
+    m_SelectedIDs: 2a290000
+    m_LastClickedID: 10538
+    m_ExpandedIDs: 00000000c2260000922700006a29000070290000e42a0000962b0000242c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -617,7 +617,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f23700003a3800003a3900003e390000d63900004e3a0000ae3a000000ca9a3b
+    m_ExpandedIDs: 00000000c2260000922700006a29000070290000e42a0000962b0000242c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
