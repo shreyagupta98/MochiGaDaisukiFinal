@@ -19,7 +19,7 @@ setFace(Kuma,giddy) next
 narrator "<color=#ccc><i>You think you can actually beat me if I was actually trying?{a} I did my best not to overreact after his casual statement.</i></color>"
 
 setFace(Kuma,happy) next
-Kuma "But listen,{a} I had a lot of fun playing with it,{a} even though it was a little one-sided."
+Kuma "But listen,{a} I had a lot of fun playing,{a} even though it was a little one-sided."
 "Just curious, I was wondering whether or not you might be curious in attending a Mochi Festival next week?{a} We plan on having a small little competition for SF during the festival as well."
 "You should definitely consider it.{a} Who knows?{a} You might somehow win the tournmanent! The entrance fee is only a box of mochi,{a} with the prize being a year's supply of it in return!"
 
