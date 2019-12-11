@@ -48,6 +48,8 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 - Eshan: Designing and scripting the Main Menu page + Game Logic (main role) + Audio (helped searching for sound effects and background music) + Images for the backdrops + Testing (sub-role) + UI
 
+- Caz : Building the narrative and handling the player inputs among other contributions.
+
 - All our subroles are defined but playtesting fell under more than just one person's role.
 
 
