@@ -11,7 +11,7 @@ transBackground(safepolice,blur) next
 
 playMusic(null) playSound(PoliceSiren) next
 
-enter(Puma) exit(bike) next
+enter(Puma) setFace(Puma,Puma_4) exit(bike) next
 
 Puma "STOP your bike this instant!"
 

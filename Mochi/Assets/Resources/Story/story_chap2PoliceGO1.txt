@@ -2,6 +2,7 @@ next
 
 narrator "<color=#ccc><i>I decided to stop and uphold the law. Who knows. Maybe I can ask the police for a ride.</i></color>"
 
+setFace(Puma,Puma_9) next
 Puma "Sir, do you know why we are pulling you over?"
 
 narrator "No. Not really." 
@@ -10,10 +11,12 @@ Puma "Sir, do you know how fast you were going on your bike?"
 
 narrator "Nope."
 
+setFace(Puma,Puma_10) next
 Puma "You were going at a rate of 25mph. I'm sorry.{a} But I have to take you to the station to fully write you up."
 
 narrator "What, no!{a} I have mochi festival I have to go to.{a} I'm attending a tournament to try to win a YEARS worth of MOCHI."
 
+setFace(Puma,Puma_13) next
 Puma "I'm sorry.{a} But you cannot use your tournament as an excuse.{a} Please comply or face the conseque-" 
 
 exit(Puma) next
