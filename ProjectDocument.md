@@ -66,21 +66,15 @@ Epilogue backdrop: http://thecoter.ie/tag/shop/
 
 Mochi: https://www.wholefoodsmarket.com/blog/trending-whole-foods-market-mochi
 
-Characters:
-
 ![Image of Characters](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/title.png)
 
-With a clear idea of what we wanted the main characters in the story to look like, we decided to use original assets to portray the story.I drew characters from scratch using Procreate, pulling inspiration from We Bare Bears. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract our target audience of college students. In building the world, I based the smaller role characters off of Kuma's form to maintain consistency and focused on the design of the characters' expressions and clothing to differentiate their roles.
-
-World:
+Our characters were all drawn from scratch pulling inspiration from [We Bare Bears](https://webarebears.fandom.com/wiki/Category:Characters) characters. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract players. Smaller role characters such as Muma and Puma resembled Kuma's form closely to maintain consistency when building the world.
 
 ![Image of Backdrops](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Images/UI/backdrops/arcade.png)
 
-As our audience was 100% Davis mochi lovers, it was important for us to maintain the image of Davis in the game while also providing a distinctive vision. In building the world around the player, we chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. I ran these backdrops through the Befunky cartoonizing filter to maintain consistency in visuals.
+As our audience was 100% Davis mochi lovers, it was important to us to maintain the image of Davis in the game while also providing a distinctive vision. We chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. These backdrops were run through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
 
-Animation:
-
-I was able to animate the bike by adding it as a character prefab and used the move function to make it appear as a first-person bike riding down a road. This first-person bike placement helps the player feel as if they are in the game. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. Following the tutorial, I implemented all character prefabs as multi-layer objects to allow placing various expressions on various bodies. I also used the move function on the characters to emphasize times of greater emotion or movement in story.
+We were able to animate the bike by adding it as a character prefab and using the move function to make it appear as a first-person bike riding down a road. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. We decided to implement multi-layer characters so that we Following a tutorial on implementing characters m Continuing on this project, we would like to implement more animations in the bodies of the characters.
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 After scripting, animation and visuals were the most 
@@ -152,15 +146,20 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 [Trailer](https://youtu.be/xaPfh_okiPY)
 
-I built a website to introduce our game to the media. The press kit includes a decription of the game, features, release date, trailer, quotes of responses from the demo, samples of character and backdrop images, and an intro to the characters in the game.
+**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
 
-I watched a lot of visual novel trailers and tried to implement something similar in our trailer, showcasing parts of the animation and choices in the game as well as the narrative. The trailers runs the audience through the main points of the story and allows them to experience parts of the first-person elements of the game (like the bike). For the audio, I chose the original audio file we had used for the game since it was soft and fun. 
+
 
 ## Game Feel
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
 
-To improve the game feel, we collectively suggested and made minor changes to improve various elements that players generally focus on in visual novels like tweaking the text font and size to increase readability. 
-The fade in and out transitions were also tweaked. Some sound effects were changed as well. 
+To improve the game feel, we collectively suggested and implemented minor changes as we progressed, to improve the various elements and flourishes that generally engage players in the medium of visual novels.
 
-All of these improvements fuel the overall impact that the game leaves on the player while playing.
+These include the on screen animations and scene transitions between the characters and backgrounds, the player being able to read the dialogue text, choices as well as the character expressions. For these elements, we tweaked the text's font and size so as to have them be legible and have a contrast with the dialogue box to facilitate the player's actions. The dialogue box's text sequences were implemented such that it was created from the player's mind or that of other characters, usually a few lines at a time to avoid clogging the player's screen with information overload from the get go, with the player's controls triggering the next sequence of lines once they've digested the previous lines. We chose the dialogue box to best fit the relatively light,upbeat and comedic themes of the narrative. 
+
+The choice sections were presented in two main halves, we first had the question slide up the screen on a large panel before positioning it at the top,the choices elaborated in the dialogue box and the buttons below the title in the form of elliptical buttons, which transitions with a fade from a blue to a green hue at an interval that would not be abrupt for the player. These would help inform the player about the context of the decision they are about to make, contemplate on the consequences of each decisions, ensure that they have the agency required to act on what they have decided and generally help their actions of selecting choices feel good holistically.
+
+We spent a lot of time tweaking the music and sound effects to feel just right, by having the our experiences of listening to game music in games generally help steer our choices. We chose sound tracks to best fit the mood and atmosphere of the scenes, helping maximize the feelings of tension and anticipation aroused in the player by including some tracks with intensity that crescendo at fitting moments.  
+
+We believe all of these improvements helped fuel the overall impact that our game left on the player, and really sell the immersive feeling that the tight narratives of visual novels have to offer.
