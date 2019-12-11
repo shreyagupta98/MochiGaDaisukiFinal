@@ -38,7 +38,7 @@ Kuma "My test of course, [move(Kuma,0.4)]it was a test all along you see."
 
 narrator "<color=#ccc><i>...{a}Yeah, that definitely wasn’t a test...</i></color>"
 setFace(Kuma,laugh) next
-narrator "<color=#ccc><i>Kuma [move(Kuma,1)] ran over to start his bike.</i></color>"
+narrator "<color=#ccc><i>Kuma[move(Kuma,1)] ran over to start his bike.</i></color>"
 
 Kuma "Well [move(Kuma,0.9)]hop along then!"
 narrator "Wait wait wait, what?"
