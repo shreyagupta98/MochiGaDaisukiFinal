@@ -76,7 +76,7 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 The title page has 3 buttons - New Game, Load Game, and Exit. Since our game can only save 1 file, the "New Game" button will delete the current/saved game and the "Load Game" button will load the existing saved game. The "Exit" button will quit the application if it is built or change EditorApplication.isPlaying = false if the game is in editor mode. 
 
-## Movement/Physics
+## Model Movement in Visual Novel
 
 Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story, scene transitions to indicate the player's presence in and between scenes.
 
