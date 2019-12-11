@@ -105,7 +105,7 @@ A lot of our music was pulled off bigger games.
 
 All of our SFX are mostly free except for the exception:
 
-- of the Iphone ring tone used for Muma's phone
+- The Iphone ring tone used for Muma's phone
 [https://www.youtube.com/watch?v=VDvFcn6icXo]
 
 
