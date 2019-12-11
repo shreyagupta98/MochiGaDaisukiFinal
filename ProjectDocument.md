@@ -36,6 +36,8 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 - We followed all of his tutorials and essentially went through each script and video to generate the game we have currently. Because of the "simplicity of a visual novel," many of our roles ended up blending in with each other as well as all of us contributing to different parts of the game. For example, our script required work from all of us. In order for us to understand how commands are separated, we all had to go through the script video and watch how the game script is essentially written out. There are plenty more examples we can list but this is a general disclaimer that all of our grades should be combined instead of being separated into different roles.
 
+- Below will be a list of what we did a lot on (but to be fair, a lot of us crossed over to help each other to understand what to do)
+
 **BREAKDOWN** 
 
 - Jesse: Scripting(Translating from Story Script to Game Script, also helped create some scenes(Police Scene!)), UI(Understood how to parse game script to dialogue + different commands) + Game Logic(Created commands to help progress story when items loaded in) + Audio(Found a bulk of the music for the game) 
