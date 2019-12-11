@@ -146,9 +146,9 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 [Trailer](https://youtu.be/xaPfh_okiPY)
 
-**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
+I built a website to introduce our game to the media. The press kit includes a decription of the game, features, release date, trailer, quotes of responses from the demo, samples of character and backdrop images, and an intro to the characters in the game.
 
-
+I watched a lot of visual novel trailers and tried to implement something similar in our trailer, showcasing parts of the animation and choices in the game as well as the narrative. The trailers runs the audience through the main points of the story and allows them to experience parts of the first-person elements of the game (like the bike). For the audio, I chose the original audio file we had used for the game since it was soft and fun. 
 
 ## Game Feel
 
