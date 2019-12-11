@@ -63,7 +63,7 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 ## Animation and Visuals
 
 **List your assets including their sources and licenses.**
-Our characters were all based on the shapes of [We Bare Bears] (https://webarebears.fandom.com/wiki/Category:Characters) characters 
+Our characters were all based on the shapes of [We Bare Bears](https://webarebears.fandom.com/wiki/Category:Characters) characters 
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 
