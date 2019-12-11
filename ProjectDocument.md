@@ -114,7 +114,9 @@ During the points in the game where the player needs to make a choice, several c
 
 **Document what game states and game data you managed and what design patterns you used to complete your task.**
 
-The most important elements for game logic in a visual novel are the story (narration) and design. Since our 
+The most important elements for game logic in a visual novel are the story (narration) and design. The story took a long time for us to get right. The script was rewritten in the last 15 days due to the pace of our original story. We spent a lot of time finding the appropriate sound effects and changed positions and expressions of the characters to keep the player engaged and make the game more lively. For instance, when Ushi is biking, the position of the bike is shifted left/right as the story progresses. 
+
+The design is very minimalistic. There are mainly 3 layers - a background image, characters in the scene, and the narration panel. For the background image, we animated the images we took of the campus, roads, and bike paths. The characters (Kuma, Puma, Muma, and Ruma) are all bears as they are really cute. The narration panel (and choices) is the top layer and the dialogue has a little animation (appearing letter-by-letter). The dialogues are not very long to prevent the cluttering of the narration box. 
 
 # Sub-Roles
 
