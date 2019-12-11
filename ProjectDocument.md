@@ -75,9 +75,11 @@ After scripting, animation and visuals were the most
 
 ## Input
 
-**Describe the default input configuration.**
+For our main menu, we used the Left Mouse button to navigate through our "New Game", "Load Game", and "Exit" buttons. We thought this was the easiest possible configuration and also the most logical, especially for our game that would be on the PC.
 
-**Add an entry for each platform or input style your project supports.**
+In the actual game, we used the Right Arrow button and the Left Mouse button to scroll through different sections of text. We also added the ability for the player to quicken the speed at which the text appears on the screen. We realized that some players want to speed through dialogue in order to try different choices than they made previously. As a result, when text is appearing on the screen, if the player presses either of the two buttons, the text will appear quicker in the text box. We also added the ability to save the game using the "s" key, so that if the player exits the game and then presses "Load Game" on the title screen, the game will load at the exact same point in the story where the player pressed "s".
+
+During the points in the game where the player needs to make a choice, several clickable text boxes will appear on the screen. To select one of them, the player must use the Left Mouse button. Instead of this, we could have had the player press the numerical keys to select the corresponding choice (e.g. pressing the 2 key to select the 2nd choice that appears on the screen). We could have also used the "a" or "b" keys to select the two choices. We decided against this in the end because our current implementation localizes most of the players controls to the bottom half of the keyboard, making the experience a little easier and more convenient for them.
 
 ## Game Logic
 
