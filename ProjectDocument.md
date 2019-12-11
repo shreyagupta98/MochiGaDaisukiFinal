@@ -30,9 +30,22 @@ Here is an example:
 
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
+## DISCLAIMER + MAIN ROLE BREAKDOWN
+
 **MOST OF OUR GAME CAME FROM STELLAR STUDIOS! [https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6]**
 
-**We followed all of his tutorials and essentially went through each script and video to generate the game we have currently. Because of the "simplicity of a visual novel," many of our roles ended up blending in with each other as well as all of us contributing to different parts of the game. For example, our script required work from all of us. In order for us to understand how commands are separated, we all had to go through the script video and watch how the game script is essentially written out. There are plenty more examples we can list but this is a general disclaimer that all of our grades should be combined instead of being separated into different roles.** 
+- We followed all of his tutorials and essentially went through each script and video to generate the game we have currently. Because of the "simplicity of a visual novel," many of our roles ended up blending in with each other as well as all of us contributing to different parts of the game. For example, our script required work from all of us. In order for us to understand how commands are separated, we all had to go through the script video and watch how the game script is essentially written out. There are plenty more examples we can list but this is a general disclaimer that all of our grades should be combined instead of being separated into different roles.
+
+**BREAKDOWN** 
+
+- Jesse: Scripting(Translating from Story Script to Game Script, also helped create some scenes(Police Scene!)), UI(Understood how to parse game script to dialogue + different commands) + Game Logic(Created commands to help progress story when items loaded in) 
+
+- Shreya: [Animation & Visual](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#animation-and-visuals) + [Press Kit & Trailer](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#press-kit-and-trailer)
+
+- Ajay: Scripting(Translating story to fit game's narrative, also helped create some scenes(Muma mugging scene) among others), Movement(Utilized necessary transition scripts to refine movements) + Audio(Helped search for appropriate,scene-fitting audio pieces) + Game Feel(Tweaked the game's features and added juice)
+
+- All our subroles are defined but playtesting fell under more than just one person's role.
+
 
 ## User Interface
 
@@ -56,6 +69,10 @@ exit(Kuma) next
 
 These lines can easily be parsed into "commands" such as enter and exit as well as a next that loads our next line without needing the user to put an extra input, with the second line being the dialogue that will be shown in our dialogue box. 
 
+[More of our commands can be found in the text document](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Story/Commands.txt#L1) Some were not used as we got used to only using some of the commands and not all of them.
+
+[*Most if not all of the assets used for our UI were from StellarStudio's Assets that we pulled from his project or from this tumblr link*](https://visual-novel-interfaces.tumblr.com/resources)
+
 ## Movement/Physics
 
 **Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
@@ -66,15 +83,21 @@ Epilogue backdrop: http://thecoter.ie/tag/shop/
 
 Mochi: https://www.wholefoodsmarket.com/blog/trending-whole-foods-market-mochi
 
+Character:
+
 ![Image of Characters](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/title.png)
 
-Our characters were all drawn from scratch pulling inspiration from [We Bare Bears](https://webarebears.fandom.com/wiki/Category:Characters) characters. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract players. Smaller role characters such as Muma and Puma resembled Kuma's form closely to maintain consistency when building the world.
+With a clear idea of what we wanted the main characters in the story to look like, we decided to use original assets to portray the story. We drew characters from scratch using Procreate, pulling inspiration from We Bare Bears. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract our target audience of college students. In building the world, we based the smaller role characters off of Kuma's form to maintain consistency and focused on the design of the characters' expressions and clothing to differentiate their roles.
+
+World:
 
 ![Image of Backdrops](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Images/UI/backdrops/arcade.png)
 
-As our audience was 100% Davis mochi lovers, it was important to us to maintain the image of Davis in the game while also providing a distinctive vision. We chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. These backdrops were run through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
+As our audience was 100% Davis mochi lovers, it was important for us to maintain the image of Davis in the game while also providing a distinctive vision. In building the world around the player, we chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. We ran these backdrops through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
 
-We were able to animate the bike by adding it as a character prefab and using the move function to make it appear as a first-person bike riding down a road. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. We decided to implement multi-layer characters so that we Following a tutorial on implementing characters m Continuing on this project, we would like to implement more animations in the bodies of the characters.
+Animation:
+
+We were able to animate the bike by adding it as a character prefab and used the move function to make it appear as a first-person bike riding down a road. This first-person bike placement helps the player feel as if they are in the game. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. Following the tutorial, we implemented all character prefabs as multi-layer objects to allow placing various expressions on various bodies. We also used the move function on the characters to emphasize times of greater emotion or movement in story.
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 After scripting, animation and visuals were the most 
@@ -89,10 +112,9 @@ During the points in the game where the player needs to make a choice, several c
 
 ## Game Logic
 
-The most important elements for game logic in a visual novel are the story (narration) and design. The story took a long time for us to get right. The script was rewritten in the last 15 days due to the pace of our original story. We spent a lot of time finding the appropriate sound effects and changed positions and expressions of the characters to keep the player engaged and make the game more lively. For instance, when Ushi is biking, the position of the bike is shifted left/right as the story progresses. 
+**Document what game states and game data you managed and what design patterns you used to complete your task.**
 
-The design is very minimalistic. There are mainly 3 layers - a background image, characters in the scene, and the narration panel. For the background image, we animated the images we took of the campus, roads, and bike paths. The characters (Kuma, Puma, Muma, and Ruma) are all bears as they are really cute. The narration panel (and choices) is the top layer and the dialogue has a little animation (appearing letter-by-letter). The dialogues are not very long to prevent the cluttering of the narration box. 
-
+The most important elements for game logic in a visual novel are the story (narration) and design. Since our 
 
 # Sub-Roles
 
@@ -151,9 +173,9 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 [Trailer](https://youtu.be/xaPfh_okiPY)
 
-**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
+We built a website to introduce our game to the media. The press kit includes a decription of the game, features, release date, trailer, quotes of responses from the demo, samples of character and backdrop images, and an intro to the characters in the game.
 
-
+We watched a lot of visual novel trailers and tried to implement something similar in our trailer, showcasing parts of the animation and choices in the game as well as the narrative. The trailers runs the audience through the main points of the story and allows them to experience parts of the first-person elements of the game (like the bike). For the audio, we chose the original audio file we had used for the game since it was soft and fun. 
 
 ## Game Feel
 
@@ -161,7 +183,7 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 To improve the game feel, we collectively suggested and implemented minor changes as we progressed, to improve the various elements and flourishes that generally engage players in the medium of visual novels.
 
-These include the on screen animations and scene transitions between the characters and backgrounds, the player being able to read the dialogue text, choices as well as the character expressions. For these elements, we tweaked the text's font and size so as to have them be legible and have a contrast with the dialogue box to facilitate the player's actions. The dialogue box's text sequences were implemented such that it was created from the player's mind or that of other characters, usually a few lines at a time to avoid clogging the player's screen with information overload from the get go, with the player's controls triggering the next sequence of lines once they've digested the previous lines. We chose the dialogue box to best fit the relatively light, upbeat and comedic themes of the narrative. 
+These include the on screen animations and scene transitions between the characters and backgrounds, the player being able to read the dialogue text, choices as well as the character expressions. For these elements, we tweaked the text's font and size so as to have them be legible and have a contrast with the dialogue box to facilitate the player's actions. The dialogue box's text sequences were implemented such that it was created from the player's mind or that of other characters, usually a few lines at a time to avoid clogging the player's screen with information overload from the get go, with the player's controls triggering the next sequence of lines once they've digested the previous lines. We chose the dialogue box to best fit the relatively light,upbeat and comedic themes of the narrative. 
 
 The choice sections were presented in two main halves, we first had the question slide up the screen on a large panel before positioning it at the top,the choices elaborated in the dialogue box and the buttons below the title in the form of elliptical buttons, which transitions with a fade from a blue to a green hue at an interval that would not be abrupt for the player. These would help inform the player about the context of the decision they are about to make, contemplate on the consequences of each decisions, ensure that they have the agency required to act on what they have decided and generally help their actions of selecting choices feel good holistically.
 
