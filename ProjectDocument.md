@@ -3,6 +3,7 @@
 ## Summary ##
 
 **IMPORTANT: PLEASE USE ANOTHER VERSION OF UNITY FOR THIS GAME.[https://unity3d.com/unity/whats-new/unity-2018.3.0]**
+
 **A paragraph-length pitch for your game.**
 
 ## Gameplay explanation ##
