@@ -60,6 +60,23 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 **Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
 
+Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story, scene transitions to indicate the player's presence in and between scenes.
+
+*TransitionMaster* - Handles the transition from image to appear and vice-versa.
+[This method deals with the execution of most transitions](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/TransitionMaster.cs#L47)
+
+*TitleHeader* - The fade transitions for the title box.
+[TitleHeader has these types of fade transitions to choose from](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/TitleHeader.cs#L13)
+
+*ChoiceScreen* - To present the choices on screen
+[Lists out the available choices](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/ChoiceScreen.cs#L71)
+
+*Character* - To move the character's positions
+[Deals with the character movement across the screen](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L97)
+
+*Character* - To change the character's expressions
+[This function render the character's expressions with the sprites](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L234)
+
 ## Animation and Visuals
 
 Epilogue backdrop: http://thecoter.ie/tag/shop/
@@ -151,8 +168,6 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 
 ## Game Feel
-
-**Document what you added to and how you tweaked your game to improve its game feel.**
 
 To improve the game feel, we collectively suggested and implemented minor changes as we progressed, to improve the various elements and flourishes that generally engage players in the medium of visual novels.
 
