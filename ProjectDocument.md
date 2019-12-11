@@ -58,8 +58,6 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 ## Movement/Physics
 
-**Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
-
 Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story, scene transitions to indicate the player's presence in and between scenes.
 
 *TransitionMaster* - Handles the transition from image to appear and vice-versa.
