@@ -43,7 +43,7 @@ Muma "Help!!{a} I need to desperately call my parents.{a} I need to let them kno
 setFace(Muma,Muma_5) next
 narrator "Do I lend him my phone?{c}A. I lend him my phone.{a} <br>B. I refuse!"
 
-choice "Lend him the phone"
+choice "Lend him the phone?"
 {
   "A"
     Load(story_chap1ChoiceA)
