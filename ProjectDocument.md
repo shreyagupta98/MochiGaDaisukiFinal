@@ -66,7 +66,7 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 ## Movement/Physics
 
-Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story, scene transitions to indicate the player's presence in and between scenes.
+Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story,selecting choices, and scene transitions to indicate the player's presence in and between scenes.
 
 *TransitionMaster* - Handles the transition from image to appear and vice-versa.
 [This method deals with the execution of most transitions](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/TransitionMaster.cs#L47)
