@@ -130,3 +130,4 @@ All of our SFX are mostly free except for the exception:
 ## Game Feel
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
+To improve the game feel, we collectively suggested and made minor changes to improve various elements that players generally focus on in visual novels like tweaking the text font and size to increase readability. The fade in and out transitions were also tweaked. Some sound effects were changed as well. All of these improvements fuel the overall impact that the game leaves on the player while playing.
