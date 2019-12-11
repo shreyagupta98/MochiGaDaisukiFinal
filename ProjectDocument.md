@@ -38,7 +38,9 @@ Most of our dialogue logics and commands however are read in text files.
 [Most of these text files are essentially parsed in the NovelController, where it determines our various commands and differentiates them from regular dialogue.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Novel%20Controller/NovelController.cs#L5) For example:
 
 enter(Kuma) next
+
 Kuma "This is what it means to be a Kuma"
+
 exit(Kuma) next
 
 These lines can easily be parsed into "commands" such as enter and exit as well as a next that loads our next line without needing the user to put an extra input, with the second line being the dialogue that will be shown in our dialogue box. 
@@ -74,8 +76,24 @@ Our Audio is all generated in AudioManager.
 
 A lot of our music was pulled off bigger games.
 
+- Our Arcade scene music originated from Maplestory, a game developed by Nexon and Wizet
+[https://www.youtube.com/watch?v=mD2b0Xx7wPA]
+
+- Our home scene/interlude between the bicycle and the arcade scene music came from Undertale, a game by Toby Fox 
+[https://www.youtube.com/watch?v=lsoLYWTzqSY]
+
 - Our Bicycle scene included music ffrom GRISAIA NO MEIKYUU, a light novel series made by FRONTWINGS
 [https://www.youtube.com/watch?v=j4ID0Ex56Qc]
+
+- Our Police Scene sounds come from FFVII, owned by Square Enix, and InitialD by STUDIO COMET/GALLOP 
+[https://www.youtube.com/watch?v=atuFSv2bLa8]
+[https://www.youtube.com/watch?v=t7wJ8pE2qKU]
+
+- Our Mystery theme/Muma theme came from Bleach, animated by Studio Pierrot
+[https://www.youtube.com/watch?v=e4R9pYcl3xM]
+
+- All of our SFX are mostly free except for the exception of the Iphone ring tone used for Muma's phone 
+[https://www.youtube.com/watch?v=VDvFcn6icXo]
 
 
 ## Gameplay Testing
