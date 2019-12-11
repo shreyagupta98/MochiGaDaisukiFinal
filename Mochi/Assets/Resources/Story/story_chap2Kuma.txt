@@ -4,7 +4,7 @@ transBackground(safeclose,blur) next
 enter(Kuma) setBody(Kuma,Kuma2back) setFace(Kuma,none) next
 
 narrator "<color=#ccc><i>I approached the stranger to see if they needed any help. Their back was turned to me so I couldn't make out a face.</i></color>"
-narrator "<color=#ccc><i>They were quickly [move(Kuma,0.6)] walking [move(Kuma,0.4)] around [move(Kuma,0.6)] a [move(Kuma,0.4)] motorbike, with[move(Kuma,0.7)] their[move(Kuma,0.6)] head[move(Kuma,0.4)] scanning[move(Kuma,0.2)] the[move(Kuma,0.6)] nearby[move(Kuma,0.5)] area.</i></color>"
+narrator "<color=#ccc><i>They were quickly[move(Kuma,0.6)] walking[move(Kuma,0.4)] around[move(Kuma,0.6)] a [move(Kuma,0.4)]motorbike, with[move(Kuma,0.7)] their[move(Kuma,0.6)] head[move(Kuma,0.4)] scanning[move(Kuma,0.2)] the[move(Kuma,0.6)] nearby[move(Kuma,0.5)] area.</i></color>"
 
 narrator "Hi[move(Kuma,0.6)] excuse[move(Kuma,0.4)] me, [move(Kuma,0.3)]do [move(Kuma,0.6)]you [move(Kuma,0.7)]need any [move(Kuma,0.5)]help? I saw you frantically pacing around so I-"
 
