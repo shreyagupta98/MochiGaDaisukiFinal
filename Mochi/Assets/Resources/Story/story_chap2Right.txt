@@ -1,7 +1,7 @@
 transBackground(dangerfar,blur) enter(bike) next
 
 narrator "<color=#ccc><i>[move(bike,0.5)]The further I biked down this road, [move(bike,0.8)]the more uneasy I felt.</i></color>"
-narrator "<color=#ccc><i>A mist [transBackground(dangerfog,bottomUp)] started[move(bike,0.7)] to grow as [move(bike,0.4)]I continued biking, [move(bike,0.3)]and suddenly I was[move(bike,0.5)] completely shrouded in it...</i></color>"
+narrator "<color=#ccc><i>A mist [transBackground(dangerfog,bottomUp)]started[move(bike,0.7)] to grow as [move(bike,0.4)]I continued biking, [move(bike,0.3)]and suddenly I was[move(bike,0.5)] completely shrouded in it...</i></color>"
 narrator "<color=#ccc><i>I was [move(bike,0.5)]completely lost. I had no idea where I was and how to get back.</i></color>"
 narrator "<color=#ccc><i>I'll never get to the festival in time.</i></color>"
 
