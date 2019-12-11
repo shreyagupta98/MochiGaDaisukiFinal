@@ -40,6 +40,8 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 - Jesse: Scripting(Translating from Story Script to Game Script, also helped create some scenes(Police Scene!)), UI(Understood how to parse game script to dialogue + different commands) + Game Logic(Created commands to help progress story when items loaded in) 
 
+- Shreya: [Animation & Visual](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#animation-and-visuals) + [Press Kit & Trailer](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#press-kit-and-trailer)
+
 - Ajay: Scripting(Translating story to fit game's narrative, also helped create some scenes(Muma mugging scene) among others), Movement(Utilized necessary transition scripts to refine movements) + Audio(Helped search for appropriate,scene-fitting audio pieces) + Game Feel(Tweaked the game's features and added juice)
 
 - All our subroles are defined but playtesting fell under more than just one person's role.
