@@ -16,11 +16,17 @@ Kuma "Well, here we are."
 
 narrator "This place is majestic...{a}look at all the people!"
 
+setFace(Kuma,laugh) next
+
 Kuma "This festival is my pride and joy!{a} I can't have a festival of my favorite food looking terrible now can I?"
+
+setFace(Kuma,concerned) next
 
 "The game tournament is starting soon! You should sign up and get ready!{a} Some of these contendors aren't exactly easy to beat.{c}Sign ups are over there."
 
-narrator "Don't worry Kuma.{a} I don't intend to lose." 
+narrator "Don't worry Kuma.{a} I don't intend to lose."
+
+setFace(Kuma,happy) next
 
 "<color=#ccc><i>Kuma chuckles at my daring words.</i></color>"
 

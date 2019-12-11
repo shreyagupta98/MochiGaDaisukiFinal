@@ -1,3 +1,4 @@
+Load(story_chap1Bicycle)
 next
 
 playMusic(KerningCity) transBackground(arcade,radialClock) next()

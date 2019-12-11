@@ -1,5 +1,7 @@
 ﻿next
 
+transBackground(dangerclose,blur) next()
+
 narrator "Here you go."
 setFace(Muma,Muma_8)
 Muma "Thank you, you’re a lifesaver!{a} Oh, could you keep a lookout for any possible bikers?"
