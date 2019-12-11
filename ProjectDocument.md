@@ -74,6 +74,8 @@ Our characters were all drawn from scratch pulling inspiration from [We Bare Bea
 
 As our audience was 100% Davis mochi lovers, it was important to us to maintain the image of Davis in the game while also providing a distinctive vision. We chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. These backdrops were run through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
 
+We were able to animate the bike by adding it as a character prefab and using the move function to make it appear as a first-person bike riding down a road. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. We decided to implement multi-layer characters so that we Following a tutorial on implementing characters m Continuing on this project, we would like to implement more animations in the bodies of the characters.
+
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 After scripting, animation and visuals were the most 
 
