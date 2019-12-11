@@ -146,6 +146,9 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 [Trailer](https://youtu.be/xaPfh_okiPY)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xaPfh_okiPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 **Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
 
 
