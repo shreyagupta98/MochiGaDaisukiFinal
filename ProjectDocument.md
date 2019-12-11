@@ -30,17 +30,9 @@ Here is an example:
 
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
-## Disclaimer + Main-Role Breakdowns
-
 **MOST OF OUR GAME CAME FROM STELLAR STUDIOS! [https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6]**
 
-- We followed all of his tutorials and essentially went through each script and video to generate the game we have currently. Because of the "simplicity of a visual novel," many of our roles ended up blending in with each other as well as all of us contributing to different parts of the game. For example, our script required work from all of us. In order for us to understand how commands are separated, we all had to go through the script video and watch how the game script is essentially written out. There are plenty more examples we can list but this is a general disclaimer that all of our grades should be combined instead of being separated into different roles.
-
-**MAIN ROLE AND SUB ROLE BREAKDOWN**
-
-- Jesse: Scripting(Translated all story written scripts to readable text scripts for the game), UI(Text Reading + Ensuring Dialogues stay in box range), GameLogic(Learning to utilize commands to create some special interactions that can be used in the texts)** 
-
-- We all ended up working on our individual sub roles with the exception of gameplay testing falling under everyone's category.
+**We followed all of his tutorials and essentially went through each script and video to generate the game we have currently. Because of the "simplicity of a visual novel," many of our roles ended up blending in with each other as well as all of us contributing to different parts of the game. For example, our script required work from all of us. In order for us to understand how commands are separated, we all had to go through the script video and watch how the game script is essentially written out. There are plenty more examples we can list but this is a general disclaimer that all of our grades should be combined instead of being separated into different roles.** 
 
 ## User Interface
 
@@ -66,22 +58,7 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 ## Movement/Physics
 
-Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story,selecting choices, and scene transitions to indicate the player's presence in and between scenes.
-
-*TransitionMaster* - Handles the transition from image to appear and vice-versa.
-[This method deals with the execution of most transitions](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/TransitionMaster.cs#L47)
-
-*TitleHeader* - The fade transitions for the title box.
-[TitleHeader has these types of fade transitions to choose from](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/TitleHeader.cs#L13)
-
-*ChoiceScreen* - To present the choices on screen
-[Lists out the available choices](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/ChoiceScreen.cs#L71)
-
-*Character* - To move the character's positions
-[Deals with the character movement across the screen](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L97)
-
-*Character* - To change the character's expressions
-[This function render the character's expressions with the sprites](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L234)
+**Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
 
 ## Animation and Visuals
 
@@ -113,6 +90,8 @@ During the points in the game where the player needs to make a choice, several c
 ## Game Logic
 
 **Document what game states and game data you managed and what design patterns you used to complete your task.**
+
+The most important elements for game logic in a visual novel are the story (narration) and design. Since our 
 
 # Sub-Roles
 
@@ -149,19 +128,21 @@ All of our SFX are mostly free except for the exception:
 
 ## Gameplay Testing
 
-**Add a link to the full results of your gameplay tests.**
+The testing was done by all the team members in all phases of development. Our initial story was quite long and the gameplay took 20-30 minutes. However, when we playtested the game, we realized that many people who played the game did not enjoy the pacing of the story, and wanted to make more choices in a more action-packed setting. Due to that result, we had to completely change the script with a much fast-paced story. 
 
-**Summarize the key findings from your gameplay tests.**
+With the newer script and changes in the audio, we received a much more positive results. People enjoyed the background music and the sound effects we added. Overall, the feedback from our gameplay testers was that the game has an engaging story and is fun to play. The testers were primarily our friends who played we were scripting the game, and our peers who played during the demo (Tuesday, Dec 10).
+
 
 ## Narrative Design
 
 The story took quite a long time for us to get right. Our original story involved the protagonist Ushi meeting Professor Kuma and enrolling in his ECS 189L class in the spring quarter. Here, Ushi heard about a Mochi Festival that he wanted to get an invite to, but had to impress Professor Kuma with taking certain actions and making certain choices throughout the quarter that would be selected by the player. As a result, we originally planned on having multiple endings depending on the choices that were being made by the player throughout the story. This original story was about 6000-7000 lines long and was heavily story-driven, focused on character development, atmosphere, and dialogue. As a result, playing through the entire game originally may have taken 20-30 minutes.
 
-However, when we playtested the game, we realized that many people who played the game did not enjoy the pacing of the story, and wanted to make more choices in a more action-packed setting. Because of this, and the fact that our game only had to be playable for around 5 minutes, we decided to completely rewrite the script, and cut out the vast majority of the prologue scene in the arcade. We replaced it with an action-packed story with more dynamic music and quicker pacing to the story. In the context of this project, we thought that this would be a good direction for us. Perhaps if we had more time, we could have built out the original story more. The pacing of a visual novel does not need to be either fast or slow, but in the current context of this project and the relative time constraints, we thought it best to make the game's pacing much quicker.
+However, our tests were not positive and because of that, and the fact that our game only had to be playable for around 5 minutes, we decided to completely rewrite the script, and cut out the vast majority of the prologue scene in the arcade. We replaced it with an action-packed story with more dynamic music and quicker pacing to the story. In the context of this project, we thought that this would be a good direction for us. Perhaps if we had more time, we could have built out the original story more. The pacing of a visual novel does not need to be either fast or slow, but in the current context of this project and the relative time constraints, we thought it best to make the game's pacing much quicker.
 
 We have several points in the story where the player has the opportunity to make a certain choice. Some of the choices lead to a continuation in the story, and some of them inevitably lead to a game over. This approach was done for simplicity given the time constraints, and if we had more time, then perhaps we could have created a more dynamic story where different choices lead to different endings, instead of one correct path and several wrong paths.
 
 We wanted to add elements of UC Davis to our story so that the player could better connect with the story and the characters. The story was written by students, for students. Professor Kuma’s personality was not based on any particular professor in real life, we completely created his personality from scratch. But certain aspects of his aesthetic in terms of the asset we used were definitely taken from Professor Josh McCoy. This allowed our audience, which are primarily members of ECS 189L, to relate to the story even more. The other assets we used definitely added to the overall effectiveness of our narrative. We took certain photos or found photos on the internet that we then applied some effects on and incorporated into our game. We used pictures of certain locations in Davis to add to the overall feeling that the player was at UC Davis.
+
 
 ## Press Kit and Trailer
 
@@ -174,6 +155,8 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 
 ## Game Feel
+
+**Document what you added to and how you tweaked your game to improve its game feel.**
 
 To improve the game feel, we collectively suggested and implemented minor changes as we progressed, to improve the various elements and flourishes that generally engage players in the medium of visual novels.
 
