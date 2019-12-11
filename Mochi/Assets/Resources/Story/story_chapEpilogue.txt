@@ -3,23 +3,24 @@ transBackground(mochifest,blur) next
 
 narrator "<color=#ccc><i>We finally made it....{a} In front of me is Kuma's amazing Mochi festival.</i></color>"
 
-"<color=#ccc><i>The whole event is crowded. There are kids and adults alike enjoying the different types of mochi that vendors are handing out.</i></color>"
-"<color=#ccc><i>And in the middle of it all, a tournament stage with amazing lighting set up......{a}and to the side of it......{a}the monument of the festival......</i></color>"
-"<color=#ccc><i>The boxes containing the YEAR'S{a} WORTH{a} OF MOCHI.</i></color>"
+"<color=#ccc><i>The whole event is crowded. People from all over the world and here, enjoying the different types of mochi that vendors are handing out.</i></color>"
+"<color=#ccc><i>You can see different booths, events, activities,{a} and of course...</i></color>"
+transBackground(mochi,blur) next
+"<color=#ccc><i>the boxes containing the YEAR'S WORTH OF MOCHI.</i></color>"
 
-enter(Kuma) next
+transBackground(mochifest,blur) next
+
+enter(Kuma) setFace(Kuma,surprised) next
 
 Kuma "Well, here we are."
 
-narrator "This place is majestic...{a}look at all the people...{a}not to mention that amazing stadium in the middle."
+narrator "This place is majestic...{a}look at all the people!"
 
 Kuma "This festival is my pride and joy!{a} I can't have a festival of my favorite food looking terrible now can I?"
 
-"The tournament is starting soon! You should sign up and get ready!{a} Some of these contendors aren't exactly easy to beat.{c}Sign ups are over there."
+"The game tournament is starting soon! You should sign up and get ready!{a} Some of these contendors aren't exactly easy to beat.{c}Sign ups are over there."
 
-narrator "<color=#ccc><i> Kuma points right next to a stand at a stadium.</i></color>"
-
-"Don't worry Kuma.{a} I don't intend to lose." 
+narrator "Don't worry Kuma.{a} I don't intend to lose." 
 
 "<color=#ccc><i>Kuma chuckles at my daring words.</i></color>"
 
@@ -27,28 +28,10 @@ Kuma "Well, good luck then Ushi!{a} I'm not going to be signing since I will be 
 
 exit(Kuma) next
 
-narrator "<color=#ccc><i>I give my thanks to Ushi and head to the stand to sign up. Ushi went to the commentator's desk for his preparations.</i></color>"
+narrator "<color=#ccc><i>As I watch Kuma walk away, I see all the games I have been looking forward to play.{a} Today has been an eventful day to say the least,{a} and I am just glad to finally be here in one piece.</i></color>"
+"<color=#ccc><i>Now, I have the chance to compete in a real, large-scale gaming tournament. {a}I can't wait!</i></color>"
+transBackground(mochifestclose,blur) next
 
-"Entrance for one please. And here is my box of mochi as the entrance fee."
-
-enter(Ruma) next
-
-Ruma "Wait you are?!?!"
-
-exit(Ruma) next
-
-enter(Kuma)
-
-Kuma "Hmmmm, that's strange. Why is there such a loud ruckus at the booth?" 
-
-narrator "<color=#ccc><i>Hopefully, Ushi was able to sign in safely before the crow-</i></color>" 
-
-"<color=#ccc><i>Before I could finish my words, I heard the most unexpected line ever...</i></color>" 
-
-enter(Ruma)
-
-Ruma "WHY IS THE WORLD'S NUMBER TWO ATTENDING THIS EVENT?" 
-
-narrator "<color=#ccc><i>I couldn't believe my eyes as Ruma points at Ushi, who in turn returns me a smile.</i></color>" 
+narrator "Let's get this mochi." 
 
 "*****End*****"
