@@ -16,6 +16,20 @@ Use your mouse to pick choices.
 
 Press 's' to save the game and reopen the game on the spot you left off. 
 
+
+# Main Roles #
+
+Your goal is to relate the work of your role and sub-role in terms of the content of the course. Please look at the role sections below for specific instructions for each role.
+
+Below is a template for you to highlight items of your work. These provide the evidence needed for your work to be evaluated. Try to have at least 4 such descriptions. They will be assessed on the quality of the underlying system and how they are linked to course content. 
+
+*Short Description* - Long description of your work item that includes how it is relevant to topics discussed in class. [link to evidence in your repository](https://github.com/dr-jam/ECS189L/edit/project-description/ProjectDocumentTemplate.md)
+
+Here is an example:  
+*Procedural Terrain* - The background of the game consists of procedurally-generated terrain that is produced with Perlin noise. This terrain can be modified by the game at run-time via a call to its script methods. The intent is to allow the player to modify the terrain. This system is based on the component design pattern and the procedural content generation portions of the course. [The PCG terrain generation script](https://github.com/dr-jam/CameraControlExercise/blob/513b927e87fc686fe627bf7d4ff6ff841cf34e9f/Obscura/Assets/Scripts/TerrainGenerator.cs#L6).
+
+You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
+
 ## DISCLAIMER + MAIN ROLE BREAKDOWN
 
 **MOST OF OUR GAME CAME FROM STELLAR STUDIOS! [https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6]**
@@ -26,7 +40,7 @@ Press 's' to save the game and reopen the game on the spot you left off.
 
 - Jesse: Scripting(Translating from Story Script to Game Script, also helped create some scenes(Police Scene!)), UI(Understood how to parse game script to dialogue + different commands) + Game Logic(Created commands to help progress story when items loaded in) 
 
-- Shreya: [Animation & Visual](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#animation-and-visuals) + [Press Kit & Trailer](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#press-kit-and-trailer)
+- Ajay: Scripting(Translating story to fit game's narrative, also helped create some scenes(Muma mugging scene) among others), Movement(Utilized necessary transition scripts to refine movements) + Audio(Helped search for appropriate,scene-fitting audio pieces) + Game Feel(Tweaked the game's features and added juice)
 
 - All our subroles are defined but playtesting fell under more than just one person's role.
 
@@ -55,24 +69,11 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 [More of our commands can be found in the text document](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Story/Commands.txt#L1) Some were not used as we got used to only using some of the commands and not all of them.
 
+[*Most if not all of the assets used for our UI were from StellarStudio's Assets that we pulled from his project or from this tumblr link*](https://visual-novel-interfaces.tumblr.com/resources)
+
 ## Movement/Physics
 
-Due to nature of visual novels, there are elements like physics are essentially non-existent in such a medium. However, there is definitely movement present in the form of object and character animations and expressions to complement each point in the story, scene transitions to indicate the player's presence in and between scenes.
-
-*TransitionMaster* - Handles the transition from image to appear and vice-versa.
-[This method deals with the execution of most transitions](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/TransitionMaster.cs#L47)
-
-*TitleHeader* - The fade transitions for the title box.
-[TitleHeader has these types of fade transitions to choose from](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/TitleHeader.cs#L13)
-
-*ChoiceScreen* - To present the choices on screen
-[Lists out the available choices](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/InputAndChoiceSystem/ChoiceScreen.cs#L71)
-
-*Character* - To move the character's positions
-[Deals with the character movement across the screen](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L97)
-
-*Character* - To change the character's expressions
-[This function render the character's expressions with the sprites](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Character.cs#L234)
+**Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
 
 ## Animation and Visuals
 
