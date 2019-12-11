@@ -4,7 +4,7 @@ transBackground(mochifest,blur) next
 narrator "<color=#ccc><i>We finally made it....{a} In front of me is Kuma's amazing Mochi festival.</i></color>"
 
 "<color=#ccc><i>The whole event is crowded. There are kids and adults alike enjoying the different types of mochi that vendors are handing out.</i></color>"
-"<color=#ccc><i>And in the middle of it all, a tournament stage with amazing lighting set up......{a} and to the side of it......{a} the monument of the festival......</i></color>"
+"<color=#ccc><i>And in the middle of it all, a tournament stage with amazing lighting set up......{a}and to the side of it......{a}the monument of the festival......</i></color>"
 "<color=#ccc><i>The boxes containing the YEAR'S{a} WORTH{a} OF MOCHI.</i></color>"
 
 enter(Kuma) next
@@ -29,7 +29,7 @@ exit(Kuma) next
 
 narrator "<color=#ccc><i>I give my thanks to Ushi and head to the stand to sign up. Ushi went to the commentator's desk for his preparations.</i></color>"
 
-"Entrance for one please... And here is my box of mochi as the entrance fee."
+"Entrance for one please. And here is my box of mochi as the entrance fee."
 
 enter(Ruma) next
 
