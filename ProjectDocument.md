@@ -66,15 +66,21 @@ Epilogue backdrop: http://thecoter.ie/tag/shop/
 
 Mochi: https://www.wholefoodsmarket.com/blog/trending-whole-foods-market-mochi
 
+Character:
+
 ![Image of Characters](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/title.png)
 
-Our characters were all drawn from scratch pulling inspiration from [We Bare Bears](https://webarebears.fandom.com/wiki/Category:Characters) characters. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract players. Smaller role characters such as Muma and Puma resembled Kuma's form closely to maintain consistency when building the world.
+With a clear idea of what we wanted the main characters in the story to look like, we decided to use original assets to portray the story. We drew characters from scratch using Procreate, pulling inspiration from We Bare Bears. The genre of the game was a comedy visual novel in which the characters used amusing and light-hearted conversations to uplift the player and keep them engaged. In bringing the character of Professor Kuma to life, the main idea was to create a soft, almost plushie-like character to support the narrative and attract our target audience of college students. In building the world, we based the smaller role characters off of Kuma's form to maintain consistency and focused on the design of the characters' expressions and clothing to differentiate their roles.
+
+World:
 
 ![Image of Backdrops](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Images/UI/backdrops/arcade.png)
 
-As our audience was 100% Davis mochi lovers, it was important to us to maintain the image of Davis in the game while also providing a distinctive vision. We chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. These backdrops were run through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
+As our audience was 100% Davis mochi lovers, it was important for us to maintain the image of Davis in the game while also providing a distinctive vision. In building the world around the player, we chose to take photographs of roads around Davis that represented the environment and current season without bringing in images of common areas of campus that could potentially distract from the story or provide inconsistencies in our story details (e.g. it wouldn't make sense to be speeding past West Quad throughout the game to get to a Mochi Festival in another city). Using images of roads off-campus would ideally make it easier for our audience to both related to the story but also provide space for their imagination to allow the story to flow well. We ran these backdrops through the [Befunky cartoonizing filter](https://www.befunky.com/create/photo-to-cartoon/) to maintain consistency in visuals.
 
-We were able to animate the bike by adding it as a character prefab and using the move function to make it appear as a first-person bike riding down a road. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. We decided to implement multi-layer characters so that we Following a tutorial on implementing characters m Continuing on this project, we would like to implement more animations in the bodies of the characters.
+Animation:
+
+We were able to animate the bike by adding it as a character prefab and used the move function to make it appear as a first-person bike riding down a road. This first-person bike placement helps the player feel as if they are in the game. The movement of the bike helps differentiate the pace and the player's urgency in different scenes, as it moves more frantically in scenes with greater speed and more dangerous paths. Character animations were implemented through the change of expressions. Following the tutorial, we implemented all character prefabs as multi-layer objects to allow placing various expressions on various bodies. We also used the move function on the characters to emphasize times of greater emotion or movement in story.
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 After scripting, animation and visuals were the most 
@@ -150,9 +156,9 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 [Trailer](https://youtu.be/xaPfh_okiPY)
 
-**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
+We built a website to introduce our game to the media. The press kit includes a decription of the game, features, release date, trailer, quotes of responses from the demo, samples of character and backdrop images, and an intro to the characters in the game.
 
-
+We watched a lot of visual novel trailers and tried to implement something similar in our trailer, showcasing parts of the animation and choices in the game as well as the narrative. The trailers runs the audience through the main points of the story and allows them to experience parts of the first-person elements of the game (like the bike). For the audio, we chose the original audio file we had used for the game since it was soft and fun. 
 
 ## Game Feel
 
