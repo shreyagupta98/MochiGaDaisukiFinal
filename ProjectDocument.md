@@ -35,7 +35,13 @@ The controls for the dialogue box is mostly controlled via DialogueSystem.
 [DetermineSpeaker determines who the speaker is based on which is obtained in the character system.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/DialogueSystem.cs#L89)
 
 Most of our dialogue logics and commands however are read in text files. 
-[Most of these text files are essentially parsed in the NovelController, where it determines our various commands and differentiates them from regular dialogue.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Novel%20Controller/NovelController.cs#L5)
+[Most of these text files are essentially parsed in the NovelController, where it determines our various commands and differentiates them from regular dialogue.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Novel%20Controller/NovelController.cs#L5) For example:
+
+enter(Kuma) next
+Kuma "This is what it means to be a Kuma"
+exit(Kuma) next
+
+These lines can easily be parsed into "commands" such as enter and exit as well as a next that loads our next line without needing the user to put an extra input, with the second line being the dialogue that will be shown in our dialogue box. 
 
 ## Movement/Physics
 
@@ -61,11 +67,16 @@ Most of our dialogue logics and commands however are read in text files.
 
 ## Audio
 
-**List your assets including their sources and licenses.**
+Our Audio is all generated in AudioManager. 
+[PlaySong controls all our currently playing songs.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/d7676bca6b05be1e9b6415331422d4c40b066bec/Mochi/Assets/Scripts/Core/AudioManager.cs#L40) The small little caviat here is that we made a function that helps to handle the transition of music and keep it playing at the same part it last left off. 
 
-**Describe the implementation of your audio system.**
+[PlaySFX controls our sound effects.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/d7676bca6b05be1e9b6415331422d4c40b066bec/Mochi/Assets/Scripts/Core/AudioManager.cs#L29)
 
-**Document the sound style.** 
+A lot of our music was pulled off bigger games.
+
+- Our Bicycle scene included music ffrom GRISAIA NO MEIKYUU, a light novel series made by FRONTWINGS
+[https://www.youtube.com/watch?v=j4ID0Ex56Qc]
+
 
 ## Gameplay Testing
 
