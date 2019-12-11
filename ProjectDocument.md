@@ -16,20 +16,6 @@ Use your mouse to pick choices.
 
 Press 's' to save the game and reopen the game on the spot you left off. 
 
-
-# Main Roles #
-
-Your goal is to relate the work of your role and sub-role in terms of the content of the course. Please look at the role sections below for specific instructions for each role.
-
-Below is a template for you to highlight items of your work. These provide the evidence needed for your work to be evaluated. Try to have at least 4 such descriptions. They will be assessed on the quality of the underlying system and how they are linked to course content. 
-
-*Short Description* - Long description of your work item that includes how it is relevant to topics discussed in class. [link to evidence in your repository](https://github.com/dr-jam/ECS189L/edit/project-description/ProjectDocumentTemplate.md)
-
-Here is an example:  
-*Procedural Terrain* - The background of the game consists of procedurally-generated terrain that is produced with Perlin noise. This terrain can be modified by the game at run-time via a call to its script methods. The intent is to allow the player to modify the terrain. This system is based on the component design pattern and the procedural content generation portions of the course. [The PCG terrain generation script](https://github.com/dr-jam/CameraControlExercise/blob/513b927e87fc686fe627bf7d4ff6ff841cf34e9f/Obscura/Assets/Scripts/TerrainGenerator.cs#L6).
-
-You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
-
 ## DISCLAIMER + MAIN ROLE BREAKDOWN
 
 **MOST OF OUR GAME CAME FROM STELLAR STUDIOS! [https://www.youtube.com/watch?v=nnxZVU0qe5I&list=PLGSox0FgA5B7mApF1vhbspLj5NpzKedU6]**
@@ -39,6 +25,8 @@ You should replay any **bold text** with your relevant information. Liberally us
 **BREAKDOWN** 
 
 - Jesse: Scripting(Translating from Story Script to Game Script, also helped create some scenes(Police Scene!)), UI(Understood how to parse game script to dialogue + different commands) + Game Logic(Created commands to help progress story when items loaded in) 
+
+- Shreya: [Animation & Visual](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#animation-and-visuals) + [Press Kit & Trailer](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/ProjectDocument.md#press-kit-and-trailer)
 
 - All our subroles are defined but playtesting fell under more than just one person's role.
 
@@ -66,8 +54,6 @@ exit(Kuma) next
 These lines can easily be parsed into "commands" such as enter and exit as well as a next that loads our next line without needing the user to put an extra input, with the second line being the dialogue that will be shown in our dialogue box. 
 
 [More of our commands can be found in the text document](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/master/Mochi/Assets/Resources/Story/Commands.txt#L1) Some were not used as we got used to only using some of the commands and not all of them.
-
-[*Most if not all of the assets used for our UI were from StellarStudio's Assets that we pulled from his project or from this tumblr link*](https://visual-novel-interfaces.tumblr.com/resources)
 
 ## Movement/Physics
 
