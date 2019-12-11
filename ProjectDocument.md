@@ -103,7 +103,9 @@ A lot of our music was pulled off bigger games.
 - Our Mystery theme/Muma theme came from Bleach, animated by Studio Pierrot
 [https://www.youtube.com/watch?v=e4R9pYcl3xM]
 
-- All of our SFX are mostly free except for the exception of the Iphone ring tone used for Muma's phone 
+All of our SFX are mostly free except for the exception:
+
+- of the Iphone ring tone used for Muma's phone 
 [https://www.youtube.com/watch?v=VDvFcn6icXo]
 
 
