@@ -73,6 +73,9 @@ These lines can easily be parsed into "commands" such as enter and exit as well 
 
 [*Most if not all of the assets used for our UI were from StellarStudio's Assets that we pulled from his project or from this tumblr link*](https://visual-novel-interfaces.tumblr.com/resources)
 
+
+The title page has 3 buttons - New Game, Load Game, and Exit. Since our game can only save 1 file, the "New Game" button will delete the current/saved game and the "Load Game" button will load the existing saved game. The "Exit" button will quit the application if it is built or change EditorApplication.isPlaying = false if the game is in editor mode. 
+
 ## Movement/Physics
 
 **Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
