@@ -126,7 +126,11 @@ All of our SFX are mostly free except for the exception:
 
 ## Narrative Design
 
-**Document how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
+The story took quite a long time for us to get right. Our original story involved the protagonist Ushi meeting Professor Kuma and enrolling in his ECS 189L class in the spring quarter. Here, Ushi heard about a Mochi Festival that he wanted to get an invite to, but had to impress Professor Kuma with taking certain actions and making certain choices throughout the quarter that would be selected by the player. As a result, we originally planned on having multiple endings depending on the choices that were being made by the player throughout the story. This original story was about 6000-7000 lines long, and was heavily story driven, focused on character development, atmosphere, and dialogue. As a result, playing through the entire game originally may have taken 20-30 minutes.
+
+However, when we play tested the game, we realized that many people who played the game did not enjoy the pacing of the story, and wanted to make more choices in a more action-packed setting. Because of this, and the fact that our game only had to be playable for around 5 minutes, we decided to completely rewrite the script, and cut out the vast majority of the prologue scene in the arcade. We replaced it with an action-packed story with more dynamic musing and a quicker pacing to the story. In the context of this project, we thought that this woule be a good direction for us. Perhaps if we had more time, we could have built out the original story more. The pacing of a visual novel does not need to be either fast or slow, but in the current context of this project and the relative time constraints, we thought it best to make the game's pacing much quicker.
+
+We have several points in the story where the player has the opportunity to make a certain choice. Some of the choices lead to a continuation in the story, and some of them inevitably lead to a game over. This approach was done for simplicity given the time constraints, and if we had more time, then perhaps we could have created a more dynamic story where different choices lead to different endings, instead of one correct path and several wrong paths. 
 
 ## Press Kit and Trailer
 
