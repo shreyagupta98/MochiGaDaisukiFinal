@@ -136,7 +136,8 @@ We wanted to add elements of UC Davis to our story so that the player could bett
 
 ## Press Kit and Trailer
 
-**Include links to your presskit materials and trailer.**
+[Mochi Ga Daisuki Press Kit & Trailer](https://dreamy-montalcini-cd3236.netlify.com/)
+[Trailer](LINK)
 
 **Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
 
