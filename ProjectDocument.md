@@ -171,6 +171,13 @@ A lot of our music was pulled off bigger games.
 - Our Mystery theme/Muma theme came from Bleach, animated by Studio Pierrot
 [https://www.youtube.com/watch?v=e4R9pYcl3xM]
 
+- Our Festival Scene came from Rune Factory 4, developed and produced by Xseed and Marvelous Inc.
+[https://www.youtube.com/watch?v=T8Z3Gw97dDQ]
+
+- Our Menu theme + Ending theme comes from The Legend of the Heroes series produced by Falcom: 
+[https://www.youtube.com/watch?v=4WH51t8SNmU]
+[https://www.youtube.com/watch?v=rPowTOEP4h4]
+
 All of our SFX are mostly free except for the exception:
 
 - The Iphone ring tone used for Muma's phone
