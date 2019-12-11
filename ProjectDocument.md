@@ -37,14 +37,15 @@ You should replay any **bold text** with your relevant information. Liberally us
 ## User Interface
 
 **Describe your user interface and how it relates to gameplay. This can be done via the template.**
-The controls for the dialogue box is mostly controlled via DialogueSystem.
+
+Dialogue System - The controls for the dialogue box is mostly controlled via DialogueSystem.
 
 [Say simply projects the line of dialogue.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/DialogueSystem.cs#L21)
 
 [StopSpeaking helps to determine when a user has stopped speaking.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/DialogueSystem.cs#L31)
 [DetermineSpeaker determines who the speaker is based on which is obtained in the character system.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/DialogueSystem.cs#L89)
 
-Most of our dialogue logics and commands however are read in text files. 
+NovelController - Most of our dialogue logics and commands however are read in text files. 
 [Most of these text files are essentially parsed in the NovelController, where it determines our various commands and differentiates them from regular dialogue.](https://github.com/shreyagupta98/MochiGaDaisukiFinal/blob/7d52132f2f44a14f23125aa2ca41a4704d5df5e2/Mochi/Assets/Scripts/Core/Novel%20Controller/NovelController.cs#L5) For example:
 
 enter(Kuma) next
