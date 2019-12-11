@@ -32,9 +32,7 @@ setFace(Kuma,happy) next
 
 Kuma "Well, good luck then Ushi!{a} I'm not going to be signing since I will be a commentator today.{a} May the best contendor win!" 
 
-exit(Kuma) next
-
-playMusic(null) next
+exit(Kuma) playMusic(null) next()
 
 narrator "<color=#ccc><i>As I watch Kuma walk away, I see all the games I have been looking forward to play.{a} Today has been an eventful day to say the least,{a} and I am just glad to finally be here in one piece.</i></color>"
 
