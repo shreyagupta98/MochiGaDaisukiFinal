@@ -4,6 +4,8 @@
 
 Mochi Ga Daisuki is a fun and light-hearted visual novel experience inspired by the daily anxieties faced by college students in Davis. The story revolves around you, Ushi, a young and energetic (and slightly vulgur) UC Davis student determined to complete a task assigned by your CS professor, Kuma, in order to achieve the full level of happiness = a life's worth of mochi. Stay safe on the road, make decisions based on your personality, and find the quickest and safest route to the mochi festival BEFORE time runs out!
 
+**PLEASE RUN THIS UNITY VERSION FOR THE GAME TO WORK[https://unity3d.com/unity/whats-new/unity-2018.3.0]** 
+
 ## Gameplay explanation ##
 
 **In this section, explain how the game should be played. Treat this as a manual within a game. It is encouraged to explain the button mappings and the most optimal gameplay strategy.**
